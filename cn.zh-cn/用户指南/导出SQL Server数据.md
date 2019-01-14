@@ -1,4 +1,4 @@
-# 导出数据<a name="TOPIC_0142028554"></a>
+# 导出数据<a name="zh-cn_topic_0053089724"></a>
 
 要将已有SQL Server数据库迁移到华为云关系型数据库，需要先对其进行导出。
 
@@ -6,9 +6,9 @@
 >-   相应导出工具需要与数据库引擎版本匹配。  
 >-   数据库迁移为离线迁移，您需要停止使用源数据库的应用程序。  
 
-## 操作步骤<a name="sd2fc4ea68dfe4afc8f241cd215249765"></a>
+## 操作步骤<a name="s8fcbbdd229c641e0afc037e7169ae62d"></a>
 
-1.  登录[SQL-Server迁移准备](SQL-Server迁移准备.md)的[1](迁移准备-11.md#l6e46e3850fe34fbda0637de5f66614a6)中准备的弹性云服务器，或可访问华为云关系型数据库的设备。
+1.  登录[迁移准备](SQL-Server迁移准备.md)的[1](SQL-Server迁移准备.md#l7c29b4daf0d74d7d9b47b173265d179d)中准备的弹性云服务器，或可访问华为云关系型数据库的设备。
 2.  使用SQL Server Management Studio生成表、视图等数据库对象脚本。
 
     1.  使用SQL Server Management Studio连接数据库。

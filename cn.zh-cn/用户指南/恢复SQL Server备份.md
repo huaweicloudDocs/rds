@@ -1,4 +1,4 @@
-# 恢复备份<a name="TOPIC_0142028312"></a>
+# 恢复备份<a name="zh-cn_topic_0053089727"></a>
 
 ## 操作场景<a name="section51567119122258"></a>
 
@@ -8,101 +8,128 @@
 
 ## 操作步骤<a name="section51247315503"></a>
 
-1.  登录管理控制台。
-2.  单击管理控制台左上角的![](figures/region.png)，选择区域和项目。
+1.  [登录云数据库](https://support.huaweicloud.com/qs-rds/rds_login.html)。
+2.  在“备份管理”页面，选择需要恢复的备份，单击操作列的“恢复“。
 
-    您可选择自己的专属计算集群（Dedicated Computing Cluster，简称DCC）。
-
-3.  选择“数据库  \>  关系型数据库“，进入关系型数据库信息页面。
-4.  在“备份管理”页面，选择需要恢复的备份，单击“恢复“。
+    您也可在“实例管理“页面，单击指定的实例名称，在左侧导航栏单击“备份恢复“，在“全量备份”页签下单击目标备份对应的操作列中的“恢复“。
 
     根据该手动备份所在实例是否存在，进行操作：
 
-    -   存在，继续[5](#li74461528135319)。
-    -   不存在，则不可恢复到当前实例，需跳过[5](#li74461528135319)，执行[6](#li12452192818531)。
+    -   存在，继续[3](#li74461528135319)。
+    -   不存在，则不可恢复到当前实例，需跳过[3](#li74461528135319)，执行[4](#li12452192818531)。
 
-5.  <a name="li74461528135319"></a>选择需要的恢复方式，单击“确定”。
+3.  <a name="li74461528135319"></a>在“恢复到指定时间点“弹出框中，填选相关信息，单击“确定“。
 
-    -   新实例
+    -   选择需要的恢复方式。
+        -   新实例
+        -   跳转到“恢复到新实例”的服务选型页面，为用户重新创建一个和该备份数据相同的实例。恢复成功的新实例是一个独立的实例，与原有实例没有关联。如果需要使用只读实例，请重新创建。
+            -   数据库引擎与原实例相同，数据库端口默认为1433，以上参数皆不可重置。
+            -   数据库版本支持从低版本恢复到高版本，详见[表1](#table1334944713437)。
 
-        跳转到“恢复到新实例”的服务选型页面，为用户重新创建一个和该备份数据相同的实例。恢复成功的新实例是一个独立的实例，与原有实例没有关联。如果需要使用只读实例，请重新创建。
+                **表 1**  恢复支持的版本规则
 
-        -   数据库引擎与原实例相同，数据库端口默认为1433，以上参数皆不可重置。
-        -   数据库版本支持从低版本恢复到高版本，详见[表1](#tce62e50f07a144febaabc0d35c49238e)。
+                <a name="table1334944713437"></a>
+                <table><thead align="left"><tr id="row1134094714310"><th class="cellrowborder" valign="top" width="50%" id="mcps1.2.3.1.1"><p id="p434016479436"><a name="p434016479436"></a><a name="p434016479436"></a>原数据库版本</p>
+                </th>
+                <th class="cellrowborder" valign="top" width="50%" id="mcps1.2.3.1.2"><p id="p434016477435"><a name="p434016477435"></a><a name="p434016477435"></a>可恢复到的版本</p>
+                </th>
+                </tr>
+                </thead>
+                <tbody><tr id="row934134715438"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p19340154712439"><a name="p19340154712439"></a><a name="p19340154712439"></a>2008 R2 web</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p93401647114313"><a name="p93401647114313"></a><a name="p93401647114313"></a>2008 R2 web</p>
+                <p id="p183411547134316"><a name="p183411547134316"></a><a name="p183411547134316"></a>2008 R2 企业版 </p>
+                </td>
+                </tr>
+                <tr id="row334116472437"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p53411147104319"><a name="p53411147104319"></a><a name="p53411147104319"></a>2008 R2 企业版</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p17341847184318"><a name="p17341847184318"></a><a name="p17341847184318"></a>2008 R2 企业版 </p>
+                </td>
+                </tr>
+                <tr id="row834117475436"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p12341164784315"><a name="p12341164784315"></a><a name="p12341164784315"></a>2012 web版</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p8341114712433"><a name="p8341114712433"></a><a name="p8341114712433"></a>2012 web版</p>
+                <p id="p4341947154314"><a name="p4341947154314"></a><a name="p4341947154314"></a>2012 标准版</p>
+                <p id="p17341184720439"><a name="p17341184720439"></a><a name="p17341184720439"></a>2012 企业版</p>
+                </td>
+                </tr>
+                <tr id="row1234244720438"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p934116479439"><a name="p934116479439"></a><a name="p934116479439"></a>2012 标准版</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p19342747174317"><a name="p19342747174317"></a><a name="p19342747174317"></a>2012 标准版</p>
+                <p id="p193421947184317"><a name="p193421947184317"></a><a name="p193421947184317"></a>2012 企业版</p>
+                </td>
+                </tr>
+                <tr id="row1234215477432"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p10342124784312"><a name="p10342124784312"></a><a name="p10342124784312"></a>2012 企业版</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p16342134716439"><a name="p16342134716439"></a><a name="p16342134716439"></a>2012 企业版</p>
+                </td>
+                </tr>
+                <tr id="row53451947184320"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p12342174712432"><a name="p12342174712432"></a><a name="p12342174712432"></a>2014 web</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p183421947174316"><a name="p183421947174316"></a><a name="p183421947174316"></a>2014 web</p>
+                <p id="p18344144774315"><a name="p18344144774315"></a><a name="p18344144774315"></a>2014 标准版 </p>
+                <p id="p9345164712438"><a name="p9345164712438"></a><a name="p9345164712438"></a>2014 企业版 </p>
+                </td>
+                </tr>
+                <tr id="row2345184711431"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p16345164774312"><a name="p16345164774312"></a><a name="p16345164774312"></a>2014 标准版</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p16345194764320"><a name="p16345194764320"></a><a name="p16345194764320"></a>2014 标准版 </p>
+                <p id="p16345144734317"><a name="p16345144734317"></a><a name="p16345144734317"></a>2014 企业版 </p>
+                </td>
+                </tr>
+                <tr id="row43461147204320"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p113461447164311"><a name="p113461447164311"></a><a name="p113461447164311"></a>2014 企业版</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p1834694764314"><a name="p1834694764314"></a><a name="p1834694764314"></a>2014 企业版 </p>
+                </td>
+                </tr>
+                <tr id="row134815473432"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p734614764311"><a name="p734614764311"></a><a name="p734614764311"></a>2016 web</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p1734604744316"><a name="p1734604744316"></a><a name="p1734604744316"></a>2016 web</p>
+                <p id="p7348194711431"><a name="p7348194711431"></a><a name="p7348194711431"></a>2016 标准版 </p>
+                <p id="p1348144774310"><a name="p1348144774310"></a><a name="p1348144774310"></a>2016 企业版 </p>
+                </td>
+                </tr>
+                <tr id="row63488477431"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p33481476434"><a name="p33481476434"></a><a name="p33481476434"></a>2016 标准版</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p9348247124317"><a name="p9348247124317"></a><a name="p9348247124317"></a>2016 标准版</p>
+                <p id="p334864711431"><a name="p334864711431"></a><a name="p334864711431"></a>2016 企业版 </p>
+                </td>
+                </tr>
+                <tr id="row11348204794311"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p7348154712436"><a name="p7348154712436"></a><a name="p7348154712436"></a>2016 企业版</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p6348847104312"><a name="p6348847104312"></a><a name="p6348847104312"></a>2016 企业版 </p>
+                </td>
+                </tr>
+                <tr id="row7349647154313"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p193491347194319"><a name="p193491347194319"></a><a name="p193491347194319"></a>2017 企业版</p>
+                </td>
+                <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p1534920476435"><a name="p1534920476435"></a><a name="p1534920476435"></a>2017 企业版</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
 
-            **表 1**  恢复支持的版本规则
+            -   其他参数，用户需设置，请参见[购买实例](https://support.huaweicloud.com/qs-rds/zh-cn_topic_0053089697.md)。
+            -               -               -               -   新实例创建成功后，系统会自动执行一次全量备份。
 
-            <a name="tce62e50f07a144febaabc0d35c49238e"></a>
-            <table><thead align="left"><tr id="ra3da2b955520453a8e1736ef8774e592"><th class="cellrowborder" valign="top" width="50%" id="mcps1.2.3.1.1"><p id="af33f67f083394780b4c6b0179b8967c8"><a name="af33f67f083394780b4c6b0179b8967c8"></a><a name="af33f67f083394780b4c6b0179b8967c8"></a>原数据库版本</p>
-            </th>
-            <th class="cellrowborder" valign="top" width="50%" id="mcps1.2.3.1.2"><p id="zh-cn_topic_0086557163_p148277267543"><a name="zh-cn_topic_0086557163_p148277267543"></a><a name="zh-cn_topic_0086557163_p148277267543"></a>可恢复到的版本</p>
-            </th>
-            </tr>
-            </thead>
-            <tbody><tr id="re00d17ab3dbe4ad7b7d92b9e65882753"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="afb5a9a2e56254c55862284e708068e0f"><a name="afb5a9a2e56254c55862284e708068e0f"></a><a name="afb5a9a2e56254c55862284e708068e0f"></a>2008 R2 WEB</p>
-            </td>
-            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0086557163_p151700575920"><a name="zh-cn_topic_0086557163_p151700575920"></a><a name="zh-cn_topic_0086557163_p151700575920"></a>2008 R2 WEB</p>
-            <p id="ad9c216b9a6c54bf984224e9960f13fb3"><a name="ad9c216b9a6c54bf984224e9960f13fb3"></a><a name="ad9c216b9a6c54bf984224e9960f13fb3"></a>2008 R2企业版 </p>
-            </td>
-            </tr>
-            <tr id="r557859ffa28c49b18ef7af7b422b743b"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0086557163_p99214617595"><a name="zh-cn_topic_0086557163_p99214617595"></a><a name="zh-cn_topic_0086557163_p99214617595"></a>2008 R2企业版</p>
-            </td>
-            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="ac6ecb0c607ad483f85d97fc225e61f3e"><a name="ac6ecb0c607ad483f85d97fc225e61f3e"></a><a name="ac6ecb0c607ad483f85d97fc225e61f3e"></a>2008 R2企业版 </p>
-            </td>
-            </tr>
-            <tr id="r582e42dcedd0483192be9ac4712a313b"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="acda7428929264346af4abd4f1c6f60b1"><a name="acda7428929264346af4abd4f1c6f60b1"></a><a name="acda7428929264346af4abd4f1c6f60b1"></a>2014 WEB</p>
-            </td>
-            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="a9ec8c147ff2647428f6dcc0ab2165256"><a name="a9ec8c147ff2647428f6dcc0ab2165256"></a><a name="a9ec8c147ff2647428f6dcc0ab2165256"></a>2014 WEB</p>
-            <p id="a83caba3d8fde4eaeb04b83c8c33343ee"><a name="a83caba3d8fde4eaeb04b83c8c33343ee"></a><a name="a83caba3d8fde4eaeb04b83c8c33343ee"></a>2014标准版 </p>
-            <p id="zh-cn_topic_0086557163_p49810551116"><a name="zh-cn_topic_0086557163_p49810551116"></a><a name="zh-cn_topic_0086557163_p49810551116"></a>2014企业版 </p>
-            </td>
-            </tr>
-            <tr id="rfac7f06e596a464c8694cfb51003ec8f"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0086557163_p3524791705"><a name="zh-cn_topic_0086557163_p3524791705"></a><a name="zh-cn_topic_0086557163_p3524791705"></a>2014标准版</p>
-            </td>
-            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0086557163_p04601614604"><a name="zh-cn_topic_0086557163_p04601614604"></a><a name="zh-cn_topic_0086557163_p04601614604"></a>2014标准版 </p>
-            <p id="a2c7a47d4d2f4462f8406f3bf5da7ad0c"><a name="a2c7a47d4d2f4462f8406f3bf5da7ad0c"></a><a name="a2c7a47d4d2f4462f8406f3bf5da7ad0c"></a>2014企业版 </p>
-            </td>
-            </tr>
-            <tr id="r3d5faa13e81b48769cc1791062e6daf0"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="a0eb9e6f56ec64060b3f314f6032d0d20"><a name="a0eb9e6f56ec64060b3f314f6032d0d20"></a><a name="a0eb9e6f56ec64060b3f314f6032d0d20"></a>2014企业版</p>
-            </td>
-            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0086557163_p186343201806"><a name="zh-cn_topic_0086557163_p186343201806"></a><a name="zh-cn_topic_0086557163_p186343201806"></a>2014企业版 </p>
-            </td>
-            </tr>
-            <tr id="r606febfa89a84d3aafce1137209ee0c8"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="ae2dd9531409644a0ba3da3a17619908c"><a name="ae2dd9531409644a0ba3da3a17619908c"></a><a name="ae2dd9531409644a0ba3da3a17619908c"></a>2016 WEB</p>
-            </td>
-            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="aa4b3b9a1a3bc4421adbc3fd8ce7bf60d"><a name="aa4b3b9a1a3bc4421adbc3fd8ce7bf60d"></a><a name="aa4b3b9a1a3bc4421adbc3fd8ce7bf60d"></a>2016 WEB</p>
-            <p id="zh-cn_topic_0086557163_p59246291304"><a name="zh-cn_topic_0086557163_p59246291304"></a><a name="zh-cn_topic_0086557163_p59246291304"></a>2016标准版 </p>
-            <p id="a6c209bf0343a48699e4a402da614ff7f"><a name="a6c209bf0343a48699e4a402da614ff7f"></a><a name="a6c209bf0343a48699e4a402da614ff7f"></a>2016企业版 </p>
-            </td>
-            </tr>
-            <tr id="r3579cab8a55d4294a106d20fef531c26"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="a4cd26f8984f64954b015af61a82ef6e1"><a name="a4cd26f8984f64954b015af61a82ef6e1"></a><a name="a4cd26f8984f64954b015af61a82ef6e1"></a>2016标准版</p>
-            </td>
-            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0086557163_p06405436014"><a name="zh-cn_topic_0086557163_p06405436014"></a><a name="zh-cn_topic_0086557163_p06405436014"></a>2016标准版</p>
-            <p id="a35e48f4b2524406fa0a69dfa8d37c735"><a name="a35e48f4b2524406fa0a69dfa8d37c735"></a><a name="a35e48f4b2524406fa0a69dfa8d37c735"></a>2016企业版 </p>
-            </td>
-            </tr>
-            <tr id="r4012e6bbad9445ff9b5ee178b76863eb"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="a7996632c1cb3490aa2d45af83e6f71e0"><a name="a7996632c1cb3490aa2d45af83e6f71e0"></a><a name="a7996632c1cb3490aa2d45af83e6f71e0"></a>2016企业版</p>
-            </td>
-            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0086557163_p77341511808"><a name="zh-cn_topic_0086557163_p77341511808"></a><a name="zh-cn_topic_0086557163_p77341511808"></a>2016企业版 </p>
-            </td>
-            </tr>
-            </tbody>
-            </table>
+        -   当前实例
 
-        -   其他参数，用户需设置，请参见[购买实例](https://support.huaweicloud.com/qs-rds/zh-cn_topic_0053089697.md)。
-        -   新实例创建成功后，系统会自动执行一次全量备份。
-
-    -   当前实例
-
-        >![](public_sys-resources/icon-notice.gif) **注意：**   
-        >恢复到当前实例会导致实例数据被覆盖，且恢复过程中实例将不可用。  
-
-        在“实例管理”页面，可查看该实例状态为“恢复中”。无需执行[6](#li12452192818531)。
+            >![](public_sys-resources/icon-notice.gif) **注意：**   
+            >-   恢复到当前实例会导致当前实例的全部数据被覆盖，并且恢复过程中数据库不可用  
 
 
-    恢复成功后，若当前实例已开启自动备份策略，系统会自动执行一次全量备份。反之则不会执行全量备份。
+    -   勾选需要恢复的数据库，您可以根据需要，自定义恢复后的新数据库名。如果恢复到的新数据库名未填写，默认为您恢复到原数据库。
 
-6.  <a name="li12452192818531"></a>恢复到新实例。
+        >![](public_sys-resources/icon-note.gif) **说明：**   
+        >-   新数据库名不能与原数据库重名。  
+        >-   新数据库名不能包含rdsadmin、master、msdb、tempdb、model或resource字段（不区分大小写）。  
+        >-   数据库名称在1位到128位之间，包含字母、数字或下划线，不能包含其他特殊字符。  
+
+
+    在“实例管理”页面，可查看该实例状态为“恢复中”。无需执行[4](#li12452192818531)。
+
+    -   恢复成功后，若当前实例已开启自动备份策略，系统会自动执行一次全量备份。反之则不会执行全量备份。
+
+4.  <a name="li12452192818531"></a>恢复到新实例。
 
     跳转到“恢复到新实例”的服务选型页面，为用户重新创建一个和该备份数据相同的实例。恢复成功的新实例是一个独立的实例，与原有实例没有关联。如果需要使用只读实例，请在新实例上重新创建。
 
