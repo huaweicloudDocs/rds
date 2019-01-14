@@ -1,4 +1,4 @@
-# 监控指标<a name="TOPIC_0142028286"></a>
+# 监控指标<a name="zh-cn_topic_0045463705"></a>
 
 -   弹性云服务器相关指标，如[表1](支持的监控指标.md#table2501556415126)所示。
 -   数据库指标监控项，如[表1](#table43985037223835)所示。
@@ -245,21 +245,21 @@
     <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p65416599152545"><a name="p65416599152545"></a><a name="p65416599152545"></a>≥0rows/s</p>
     </td>
     </tr>
-    <tr id="row146627554447"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p11791172473715"><a name="p11791172473715"></a><a name="p11791172473715"></a>连接数使用率</p>
+    <tr id="row1978952423715"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p11791172473715"><a name="p11791172473715"></a><a name="p11791172473715"></a>连接数使用率</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p14791224123719"><a name="p14791224123719"></a><a name="p14791224123719"></a>该指标用于统计当前已用的MySQL连接数占总连接数的百分比。</p>
     </td>
     <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p76871531184"><a name="p76871531184"></a><a name="p76871531184"></a>0~100%</p>
     </td>
     </tr>
-    <tr id="row1346295944410"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p13441112711377"><a name="p13441112711377"></a><a name="p13441112711377"></a>复制时延</p>
+    <tr id="row184411277378"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p13441112711377"><a name="p13441112711377"></a><a name="p13441112711377"></a>复制时延</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p1144152793720"><a name="p1144152793720"></a><a name="p1144152793720"></a>该指标用户展示MySQL主从关系中，从节点的数据复制时延。</p>
     </td>
     <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p184415276375"><a name="p184415276375"></a><a name="p184415276375"></a>≥0Seconds</p>
     </td>
     </tr>
-    <tr id="row1172514284517"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p9891330173716"><a name="p9891330173716"></a><a name="p9891330173716"></a>慢日志个数统计</p>
+    <tr id="row8891133017377"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p9891330173716"><a name="p9891330173716"></a><a name="p9891330173716"></a>慢日志个数统计</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p168921306379"><a name="p168921306379"></a><a name="p168921306379"></a>该指标展示每分钟MySQL产生慢日志的数量。</p>
     </td>

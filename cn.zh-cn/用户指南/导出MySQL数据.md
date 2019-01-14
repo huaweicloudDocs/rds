@@ -1,4 +1,4 @@
-# 导出数据<a name="TOPIC_0142028468"></a>
+# 导出数据<a name="zh-cn_topic_0042423727"></a>
 
 要将源数据库迁移到华为云关系型数据库，需要先对其进行导出。
 
@@ -6,10 +6,10 @@
 >-   相应导出工具需要与数据库引擎版本匹配。  
 >-   数据库迁移为离线迁移，您需要停止使用源数据库的应用程序。  
 
-## 操作步骤<a name="sd659c64912e04acc972cddbcd75924dd"></a>
+## 操作步骤<a name="s7d94b8eb2a4045928e9dc03d0218ed2e"></a>
 
-1.  登录[MySQL迁移准备](MySQL迁移准备.md)的[1](迁移准备.md#l397559913ff346e6a360003eb2c81dbf)中准备的弹性云服务器，或可访问华为云关系型数据库的设备。
-2.  <a name="lfeedfcaf45434d148cdf23d2b57303dd"></a>使用mysqldump将元数据导出至SQL文件。
+1.  登录[迁移准备](MySQL迁移准备.md)的[1](MySQL迁移准备.md#l19ddaa71f453439e8443d9e55bc5360c)中准备的弹性云服务器，或可访问华为云关系型数据库的设备。
+2.  <a name="l16165053c3554b74bb4aa428c1542d7c"></a>使用mysqldump将元数据导出至SQL文件。
 
     >![](public_sys-resources/icon-notice.gif) **注意：**   
     >MySQL数据库是华为云关系型数据库服务管理所必须的数据库，导出元数据时，禁止指定**--all-database**参数，否则会造成数据库故障。  
@@ -47,7 +47,7 @@
 
     **mysqldump --databases** <_DB\_NAME_\> **--single-transaction --hex-blob --set-gtid-purged=OFF --no-create-info --skip-triggers** **-u** <_DB\_USER_\> **-p** **-h** <_DB\_ADDRESS_\> **-P** <_DB\_PORT_\> **-r** <_BACKUP\_FILE_\>
 
-    以上命令的参数说明如[2](#lfeedfcaf45434d148cdf23d2b57303dd)所示。
+    以上命令的参数说明如[2](#l16165053c3554b74bb4aa428c1542d7c)所示。
 
     根据命令提示输入数据库密码。
 

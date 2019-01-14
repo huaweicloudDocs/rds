@@ -1,11 +1,11 @@
-# 导入数据<a name="TOPIC_0142028465"></a>
+# 导入数据<a name="zh-cn_topic_0042423728"></a>
 
 通过弹性云服务器或可访问华为云关系型数据库的设备，用相应客户端连接华为云关系型数据库实例，将导出的SQL文件导入到华为云关系型数据库。
 
 >![](public_sys-resources/icon-notice.gif) **注意：**   
 >如果源数据库中包含触发器、存储过程、函数或事件调用，则需确保导入前设置目标数据库参数log\_bin\_trust\_function\_creators=ON。  
 
-## 操作步骤<a name="sc8ce0df9edf34e0dbe1320e28a53cd7c"></a>
+## 操作步骤<a name="s81d4cdf9fc8c40d496398b2fc316c3e2"></a>
 
 1.  导入元数据到华为云关系型数据库。
 
@@ -19,7 +19,7 @@
 
     示例如下：
 
-    **\[root@ecs-zyc-0815-2 ~\]\# mysql -f -h 172.16.66.198 -P 3306 -u root -p < dump-defs.sql**
+    **\[root@ecs-zyc-0815-2 \~\]\# mysql -f -h 172.16.66.198 -P 3306 -u root -p < dump-defs.sql**
 
     **Enter password:**
 
@@ -33,7 +33,7 @@
 
     示例如下：
 
-    **\[root@ecs-zyc-0815-2 ~\]\# mysql -f -h 172.16.66.198 -P 3306 -u root -p < dump-data.sql**
+    **\[root@ecs-zyc-0815-2 \~\]\# mysql -f -h 172.16.66.198 -P 3306 -u root -p < dump-data.sql**
 
     **Enter password:**
 

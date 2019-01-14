@@ -1,4 +1,4 @@
-# 数据库安全设置<a name="TOPIC_0142028262"></a>
+# 数据库安全设置<a name="zh-cn_topic_0045111183"></a>
 
 ## 密码复杂度要求<a name="section7110857165544"></a>
 
@@ -15,5 +15,13 @@
 
 ## 帐户说明<a name="section3063981715951"></a>
 
-为了给PostgreSQL数据库实例提供管理服务，您在创建数据库实例时，系统会自动为实例创建rdsAdmin、rdsRepl、rdsBackup和rdsMetric帐户。如果试图删掉、重命名、修改这些帐户的密码和权限，会导致出错。
+为了给PostgreSQL数据库实例提供管理服务，您在创建数据库实例时，系统会自动为实例创建如下帐户。
+
+>![](public_sys-resources/icon-notice.gif) **注意：**   
+>如果试图删掉、重命名、修改这些帐户的密码和权限，会导致出错，请谨慎操作。  
+
+-   rdsAdmin：管理帐户，拥有最高的superuser权限，用于查询和修改实例信息、故障排查、迁移、恢复等操作。
+-   rdsRepl：复制帐户，用于备实例或只读实例在主实例上同步数据。
+-   rdsBackup：备份帐户，用于后台的备份。
+-   rdsMetric：计量帐户，用于watchdog采集数据库状态数据。
 

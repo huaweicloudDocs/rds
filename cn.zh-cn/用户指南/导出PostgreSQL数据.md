@@ -1,4 +1,4 @@
-# 导出数据<a name="TOPIC_0142028617"></a>
+# 导出数据<a name="zh-cn_topic_0043905347"></a>
 
 要将已有的PostgreSQL数据库迁移到华为云关系型数据库，需要先对它进行导出。
 
@@ -8,7 +8,7 @@
 
 ## 操作步骤<a name="section25586269104740"></a>
 
-1.  登录[PostgreSQL迁移准备](PostgreSQL迁移准备.md)的[1](迁移准备-2.md#li61751156194257)中准备的弹性云服务器，或可访问华为云关系型数据库的设备。
+1.  登录[迁移准备](PostgreSQL迁移准备.md)的[1](PostgreSQL迁移准备.md#li61751156194257)中准备的弹性云服务器，或可访问华为云关系型数据库的设备。
 2.  使用pg\_dump将源数据库导出至SQL文件。
 
     **pg\_dump** **--username=**_<DB\_USER\>_**_ _--host=**_<DB\_ADDRESS\>_** --port=**_<DB\_PORT\> _**--format=plain --file=**_<BACKUP\_FILE\>_ _<DB\_NAME\>_
@@ -23,13 +23,13 @@
 
     示例如下：
 
-    **\[rds@localhost ~\]$ pg\_dump --username=root --host=192.168.151.18 --port=**5432**  --format=plain --file=backup.sql my\_db**
+    **\[rds@localhost \~\]$ pg\_dump --username=root --host=192.168.151.18 --port=**5432**  --format=plain --file=backup.sql my\_db**
 
     **Password for user root:**
 
     命令执行完会生成“backup.sql”文件，如下：
 
-    \[rds@localhost ~\]$ ll backup.sql
+    \[rds@localhost \~\]$ ll backup.sql
 
     ```
     -rw-r-----. 1 rds rds 2714 Sep 21 08:23 backup.sql
