@@ -1,8 +1,8 @@
-# 查看或下载慢日志<a name="zh-cn_topic_slow_query_log"></a>
+# 查看或下载慢日志<a name="slow_query_log-pg"></a>
 
 ## 操作场景<a name="section61232893165332"></a>
 
-慢查询日志用来记录执行时间超过当前慢日志阈值“long\_query\_time“（默认是1秒）的语句，您可以通过慢查询日志的日志明细、统计分析情况，查找出执行效率低的语句，进行优化。您也可以下载慢查询日志进行业务分析。
+慢查询日志用来记录执行时间超过当前慢日志阈值“log\_min\_duration\_statement“（默认为1秒）的语句，您可以通过慢查询日志的日志明细、统计分析情况，查找出执行效率低的语句，进行优化。您也可以下载慢查询日志进行业务分析。
 
 华为云关系型数据库服务支持以下执行语句类型：
 
@@ -11,10 +11,15 @@
 -   UPDATE
 -   DELETE
 -   CREATE
+-   DROP
+-   ALTER
+-   DO
+-   CALL
+-   COPY
 
 ## 参数解析<a name="section121471583582"></a>
 
-**表 1**  MySQL慢查询相关的参数解析
+**表 1**  PostgreSQL慢查询相关的参数解析
 
 <a name="table1455312241604"></a>
 <table><thead align="left"><tr id="row1755318241201"><th class="cellrowborder" valign="top" width="30%" id="mcps1.2.3.1.1"><p id="p455311242020"><a name="p455311242020"></a><a name="p455311242020"></a>参数名称</p>
@@ -23,20 +28,9 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row35531624400"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.2.3.1.1 "><p id="p555392411010"><a name="p555392411010"></a><a name="p555392411010"></a>long_query_time</p>
+<tbody><tr id="row145532241400"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.2.3.1.1 "><p id="p26741582414"><a name="p26741582414"></a><a name="p26741582414"></a>log_min_duration_statement</p>
 </td>
-<td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.3.1.2 "><p id="p0668124910584"><a name="p0668124910584"></a><a name="p0668124910584"></a>大于等于此时间记录慢查询日志，精度可达微秒级别，默认为1s，当SQL语句执行时间超过此数值时，就会被记录到慢日志中。</p>
-<p id="p15370439216"><a name="p15370439216"></a><a name="p15370439216"></a>建议设置为1s。注意：锁等待时间并不计算在执行时间内。</p>
-</td>
-</tr>
-<tr id="row195531424101"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.2.3.1.1 "><p id="p8553132412010"><a name="p8553132412010"></a><a name="p8553132412010"></a>log_queries_not_using_indexes</p>
-</td>
-<td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.3.1.2 "><p id="p35534249014"><a name="p35534249014"></a><a name="p35534249014"></a>是否记录未使用索引的查询，默认OFF。</p>
-</td>
-</tr>
-<tr id="row455332412019"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.2.3.1.1 "><p id="p155535249010"><a name="p155535249010"></a><a name="p155535249010"></a>log_throttle_queries_not_using_indexes</p>
-</td>
-<td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.3.1.2 "><p id="p45532243012"><a name="p45532243012"></a><a name="p45532243012"></a>每分钟允许写入到慢查询日志的未使用索引的语句，默认为0。</p>
+<td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.3.1.2 "><p id="p13674185817412"><a name="p13674185817412"></a><a name="p13674185817412"></a>设置最小执行时间，执行时间大于等于这个值的语句都将被记录。默认为1秒。</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +62,7 @@
 3.  在左侧导航栏单击“慢日志“，选择“下载“页签，对状态为“准备完成”的日志文件，单击操作列中的“下载”，下载慢日志。
 
     **图 1**  下载慢日志<a name="fig711785217548"></a>  
-    ![](figures/下载慢日志.png "下载慢日志")
+    ![](figures/下载慢日志-6.png "下载慢日志-6")
 
     -   系统会自动加载下载准备任务，加载时长受日志文件大小及网络环境影响。
 
