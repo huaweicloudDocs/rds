@@ -30,7 +30,7 @@
     <td class="cellrowborder" valign="top" width="16.04%" headers="mcps1.2.4.1.2 "><p id="p60927123152455"><a name="p60927123152455"></a><a name="p60927123152455"></a>是</p>
     </td>
     <td class="cellrowborder" valign="top" width="56.269999999999996%" headers="mcps1.2.4.1.3 "><p id="p36149969152455"><a name="p36149969152455"></a><a name="p36149969152455"></a>API版本号，区分大小写。</p>
-    <p id="p3406227152312"><a name="p3406227152312"></a><a name="p3406227152312"></a>使用可参考<a href="查询API版本列表.md">查询API版本列表</a>响应消息<a href="查询API版本列表.md#table37479565104653">表2</a>中的<span class="parmname" id="parmname202072016132418"><a name="parmname202072016132418"></a><a name="parmname202072016132418"></a>“id”</span>。</p>
+    <p id="p3406227152312"><a name="p3406227152312"></a><a name="p3406227152312"></a>详情请参考<a href="查询API版本列表.md">查询API版本列表</a>响应消息<a href="查询API版本列表.md#table37479565104653">表2</a>中的<span class="parmname" id="parmname202072016132418"><a name="parmname202072016132418"></a><a name="parmname202072016132418"></a>“id”</span>。</p>
     </td>
     </tr>
     </tbody>
@@ -58,16 +58,18 @@ N/A
     </thead>
     <tbody><tr id="row24371359105515"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p59749643105536"><a name="p59749643105536"></a><a name="p59749643105536"></a>versions</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p7882916105536"><a name="p7882916105536"></a><a name="p7882916105536"></a>列表数据结构，请参见<a href="#table57914909154838">表3</a>。</p>
+    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p7882916105536"><a name="p7882916105536"></a><a name="p7882916105536"></a>列表数据结构</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p42392997105536"><a name="p42392997105536"></a><a name="p42392997105536"></a>API版本详细信息列表。</p>
+    <p id="p239763262013"><a name="p239763262013"></a><a name="p239763262013"></a>详情请参见<a href="#table57914909154838">表3</a>。</p>
     </td>
     </tr>
     <tr id="row3452848511416"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p4534392511416"><a name="p4534392511416"></a><a name="p4534392511416"></a>version</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p4897932611416"><a name="p4897932611416"></a><a name="p4897932611416"></a>列表数据结构，请参见<a href="#table57914909154838">表3</a>。</p>
+    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p4897932611416"><a name="p4897932611416"></a><a name="p4897932611416"></a>列表数据结构</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p790243911416"><a name="p790243911416"></a><a name="p790243911416"></a>API版本详细信息列表。</p>
+    <p id="p54651241172018"><a name="p54651241172018"></a><a name="p54651241172018"></a>详情请参见<a href="#table57914909154838">表3</a>。</p>
     </td>
     </tr>
     </tbody>
@@ -93,9 +95,10 @@ N/A
     </tr>
     <tr id="row83118291298"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p2684540212911"><a name="p2684540212911"></a><a name="p2684540212911"></a>links</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p2699394512911"><a name="p2699394512911"></a><a name="p2699394512911"></a>列表数据结构，请参见<a href="#table630875915440">表4</a>。</p>
+    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p2699394512911"><a name="p2699394512911"></a><a name="p2699394512911"></a>列表数据结构</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p1568933512911"><a name="p1568933512911"></a><a name="p1568933512911"></a>对应该API版本的链接信息，该字段为空。</p>
+    <p id="p13789175472010"><a name="p13789175472010"></a><a name="p13789175472010"></a>详情请参见<a href="#table630875915440">表4</a>。</p>
     </td>
     </tr>
     <tr id="row53266474154838"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p19617131154838"><a name="p19617131154838"></a><a name="p19617131154838"></a>status</p>
@@ -111,7 +114,7 @@ N/A
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p50694512154838"><a name="p50694512154838"></a><a name="p50694512154838"></a>版本更新时间。</p>
     <p id="p53597429154838"><a name="p53597429154838"></a><a name="p53597429154838"></a>格式为“yyyy-mm-dd Thh:mm:ssZ”。</p>
-    <p id="p12614817154838"><a name="p12614817154838"></a><a name="p12614817154838"></a>其中，T指某个时间的开始；Z指UTC时间。</p>
+    <p id="p12614817154838"><a name="p12614817154838"></a><a name="p12614817154838"></a>其中，T<span>指某个时间的开始；</span>Z指<span>UTC时间</span>。</p>
     </td>
     </tr>
     </tbody>

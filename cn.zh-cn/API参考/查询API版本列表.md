@@ -38,9 +38,10 @@ N/A
     </thead>
     <tbody><tr id="row3342858315440"><td class="cellrowborder" valign="top" width="26.26262626262626%" headers="mcps1.2.4.1.1 "><p id="p2336072515440"><a name="p2336072515440"></a><a name="p2336072515440"></a>versions</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40.40404040404041%" headers="mcps1.2.4.1.2 "><p id="p1317054715440"><a name="p1317054715440"></a><a name="p1317054715440"></a>列表数据结构，请参见<a href="#table37479565104653">表2</a>。</p>
+    <td class="cellrowborder" valign="top" width="40.40404040404041%" headers="mcps1.2.4.1.2 "><p id="p1317054715440"><a name="p1317054715440"></a><a name="p1317054715440"></a>列表数据结构</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p476126915440"><a name="p476126915440"></a><a name="p476126915440"></a>API版本详细信息列表。</p>
+    <p id="p877352874313"><a name="p877352874313"></a><a name="p877352874313"></a>详情请参见<a href="#table37479565104653">表2</a>。</p>
     </td>
     </tr>
     </tbody>
@@ -59,7 +60,7 @@ N/A
     </thead>
     <tbody><tr id="row8861837104653"><td class="cellrowborder" valign="top" width="26.57%" headers="mcps1.2.4.1.1 "><p id="p46720233104653"><a name="p46720233104653"></a><a name="p46720233104653"></a>id</p>
     </td>
-    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p26242496104653"><a name="p26242496104653"></a><a name="p26242496104653"></a>String。</p>
+    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p26242496104653"><a name="p26242496104653"></a><a name="p26242496104653"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.67%" headers="mcps1.2.4.1.3 "><p id="p45267452104653"><a name="p45267452104653"></a><a name="p45267452104653"></a>API版本号。</p>
     <p id="p16295153213231"><a name="p16295153213231"></a><a name="p16295153213231"></a>各个版本号，对应如下：</p>
@@ -68,26 +69,28 @@ N/A
     </tr>
     <tr id="row1548795912115"><td class="cellrowborder" valign="top" width="26.57%" headers="mcps1.2.4.1.1 "><p id="p26342211121111"><a name="p26342211121111"></a><a name="p26342211121111"></a>links</p>
     </td>
-    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p53344322121111"><a name="p53344322121111"></a><a name="p53344322121111"></a>列表数据结构，请参见<a href="#table630875915440">表3</a>。</p>
+    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p53344322121111"><a name="p53344322121111"></a><a name="p53344322121111"></a>列表数据结构</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.67%" headers="mcps1.2.4.1.3 "><p id="p31978734121111"><a name="p31978734121111"></a><a name="p31978734121111"></a>对应API的链接信息，v1、v3版本该字段为空。</p>
+    <p id="p3549257124214"><a name="p3549257124214"></a><a name="p3549257124214"></a>详情请参见<a href="#table630875915440">表3</a>。</p>
     </td>
     </tr>
     <tr id="row4753892104653"><td class="cellrowborder" valign="top" width="26.57%" headers="mcps1.2.4.1.1 "><p id="p49520946104653"><a name="p49520946104653"></a><a name="p49520946104653"></a>status</p>
     </td>
-    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p51773656104653"><a name="p51773656104653"></a><a name="p51773656104653"></a>String。</p>
+    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p51773656104653"><a name="p51773656104653"></a><a name="p51773656104653"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.67%" headers="mcps1.2.4.1.3 "><p id="p32916607104653"><a name="p32916607104653"></a><a name="p32916607104653"></a>版本状态。</p>
-    <p id="p1835621415265"><a name="p1835621415265"></a><a name="p1835621415265"></a>取值<span class="parmvalue" id="parmvalue1128112712714"><a name="parmvalue1128112712714"></a><a name="parmvalue1128112712714"></a>“CURRENT”</span>，表示该版本当前已对外公布。</p>
+    <p id="p1880593015412"><a name="p1880593015412"></a><a name="p1880593015412"></a>取值“CURRENT”，表示该版本为主推版本。</p>
+    <p id="p10804162614411"><a name="p10804162614411"></a><a name="p10804162614411"></a>取值“DEPRECATED”，表示为废弃版本，存在后续删除的可能。</p>
     </td>
     </tr>
     <tr id="row27814010104653"><td class="cellrowborder" valign="top" width="26.57%" headers="mcps1.2.4.1.1 "><p id="p38342341104653"><a name="p38342341104653"></a><a name="p38342341104653"></a>updated</p>
     </td>
-    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p18721892104653"><a name="p18721892104653"></a><a name="p18721892104653"></a>String。</p>
+    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p18721892104653"><a name="p18721892104653"></a><a name="p18721892104653"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.67%" headers="mcps1.2.4.1.3 "><p id="p40078272104653"><a name="p40078272104653"></a><a name="p40078272104653"></a>版本更新时间。</p>
     <p id="p25160128104653"><a name="p25160128104653"></a><a name="p25160128104653"></a>格式为“yyyy-mm-dd Thh:mm:ssZ”。</p>
-    <p id="p25114560104653"><a name="p25114560104653"></a><a name="p25114560104653"></a>其中，T指某个时间的开始；Z指UTC时间。</p>
+    <p id="p25114560104653"><a name="p25114560104653"></a><a name="p25114560104653"></a>其中，T<span>指某个时间的开始；</span>Z指<span>UTC时间</span>。</p>
     </td>
     </tr>
     </tbody>
@@ -126,31 +129,17 @@ N/A
 
     ```
     {
-    "versions": [
-    {
-    "id": "v1",
-    "links": [],
-    "status": "CURRENT",
-    "updated": "2017-02-07T17:34:02Z"
-    },
-    {
-    "id": "v1.0",
-    "links": [
-    {
-    "href": "",
-    "rel": "self"
-    }
-    ],
-    "status": "CURRENT",
-    "updated": "2017-03-23T17:34:02Z"
-    } ,
-     {
-    "id": "v3",
-    "links": [],
-    "status": "CURRENT",
-     "updated": "2019-01-15T12:00:00Z"
-    }
-    ]
+    	"versions": [{
+    		"id": "v1",
+    		"links": [],
+    	        "status": "DEPRECATED",
+    	        "updated": "2017-02-07T17:34:02Z"
+    	}, {
+    		"id": "v3",
+    		"links": [],
+    		"status": "CURRENT",
+    		"updated": "2019-01-15T12:00:00Z"
+    	}]
     }
     ```
 
