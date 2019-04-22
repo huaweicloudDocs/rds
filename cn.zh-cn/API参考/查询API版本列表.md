@@ -90,7 +90,7 @@ N/A
     </td>
     <td class="cellrowborder" valign="top" width="33.67%" headers="mcps1.2.4.1.3 "><p id="p40078272104653"><a name="p40078272104653"></a><a name="p40078272104653"></a>版本更新时间。</p>
     <p id="p25160128104653"><a name="p25160128104653"></a><a name="p25160128104653"></a>格式为“yyyy-mm-dd Thh:mm:ssZ”。</p>
-    <p id="p25114560104653"><a name="p25114560104653"></a><a name="p25114560104653"></a>其中，T<span>指某个时间的开始；</span>Z指<span>UTC时间</span>。</p>
+    <p id="p25114560104653"><a name="p25114560104653"></a><a name="p25114560104653"></a>其中，T指某个时间的开始；Z指UTC时间。</p>
     </td>
     </tr>
     </tbody>
@@ -146,5 +146,5 @@ N/A
 
 ## 异常响应<a name="section4778540915440"></a>
 
-请参见[异常请求结果](null.md)。
+请参见[异常请求结果](zh-cn_topic_0165937647.md)。
 
