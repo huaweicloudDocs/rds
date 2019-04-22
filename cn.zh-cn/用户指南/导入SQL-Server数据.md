@@ -7,9 +7,11 @@
 
 ## 操作步骤<a name="sa60c2394e66f4138b0050fc18b307584"></a>
 
-1.  使用sqlcmd将数据库对象定义导入。
+1.  通过工具导入数据。
 
-    SQL Server数据库或客户端会自带该工具，命令如下：
+    **方式一：**使用sqlcmd工具将数据库对象定义导入。
+
+    SQL Server数据库或客户端会自带该工具，导入数据命令如下：
 
     \>**sqlcmd -S** "_server_" **-d** _database_  **-U** _login\_id_ **-i** _inputfile_
 
@@ -22,11 +24,12 @@
 
     示例如下：
 
-    **\>sqlcmd -S "10.65.60.79,8636" -d test -U rdsuser -i C:\\test\\objects.sql**
+    ```
+    >sqlcmd -S "10.65.60.79,8636" -d test -U rdsuser -i C:\test\objects.sql
+    Enter password:
+    ```
 
-    **Enter password:**
-
-2.  使用bcp导入数据。
+    **方式二：**使用bcp工具导入数据。
 
     \>**bcp** _dbname.schema\_name.table\_name_ **in** _C:\\test\\table\_name.txt_ **-n -S** _Server_ **-U** _username_ **-b** _2000_
 
@@ -40,8 +43,18 @@
 
     示例如下：
 
-    **C:\\test\>bcp test.dbo.t1 in c:\\test\\t1.txt -n -S "10.65.60.79,8636" -U rdsuser -b 2000**
+    ```
+    C:\test>bcp test.dbo.t1 in c:\test\t1.txt -n -S "10.65.60.79,8636" -U rdsuser -b 2000
+    Enter password:
+    ```
 
-    **Enter password:**
+2.  查看数据导入情况。
+
+    ```
+    select * from sys.databases;
+    ```
+
+    **图 1**  查看结果<a name="fig78561115185918"></a>  
+    ![](figures/查看结果.png "查看结果")
 
 

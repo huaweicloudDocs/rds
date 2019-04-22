@@ -12,7 +12,7 @@ CLR集成安全性相关内容请参见[Microsoft SQL Server官网CLR 集成安�
 
 ## 前提条件<a name="section49781512610"></a>
 
--   云数据库SQL Server仅Microsoft SQL Server 2017 企业版以下的版本支持CLR功能。
+-   云数据库SQL Server除了Microsoft SQL Server 2017 企业版不支持此功能，其他版本都支持CLR功能。
 -   云数据库SQL Server仅支持创建安全模式的程序集。
 
 ## 启用CLR操作步骤<a name="section135348501482"></a>
@@ -46,6 +46,9 @@ CLR集成安全性相关内容请参见[Microsoft SQL Server官网CLR 集成安�
 ## 示例：SQL Server添加c\#CLR程序集的使用方法<a name="section68931653204616"></a>
 
 SQL Server提供程序集，可以更加便捷的操作数据库数据。
+
+>![](public_sys-resources/icon-note.gif) **说明：**   
+>当您将数据库实例恢复到新实例或已有实例，“clr enabled“参数默认不开启，需要重新开启，才可以正常使用CLR集成功能。  
 
 ## 操作步骤<a name="section686265423611"></a>
 

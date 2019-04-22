@@ -28,7 +28,9 @@
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >有关Generate Script，请参见微软官方文档[Generate and Publish Scripts Wizard](https://docs.microsoft.com/en-us/sql/relational-databases/scripting/generate-and-publish-scripts-wizard)。  
 
-3.  使用bcp将源数据库的数据导出至TXT文件。
+3.  使用bcp工具将源数据库的数据导出至TXT文件。
+
+    如需通过bcp工具导出数据，请自行下载并安装[bcp工具](https://docs.microsoft.com/zh-cn/sql/tools/bcp-utility?view=sql-server-2017)。导出数据命令如下：
 
     **bcp **_dbname.schema\_name.table\_name_** out** _C:\\test\\table\_name.txt_ **-n** **-S** localhost **-U** _username_ **-b** _2000_
 
@@ -41,9 +43,10 @@
 
     示例如下：
 
-    **C:\\test\>bcp test.dbo.t1 out c:\\test\\t1.txt -n -S localhost -U rdsuser -b 2000**
-
-    **Enter password:**
+    ```
+    C:\test>bcp test.dbo.t1 out c:\test\t1.txt -n -S localhost -U rdsuser -b 2000
+    Enter password:
+    ```
 
     命令执行完会生成“t1.txt”文件，如下：
 
