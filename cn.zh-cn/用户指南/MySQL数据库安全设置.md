@@ -21,5 +21,5 @@
 -   rdsAdmin：管理帐户，拥有最高的superuser权限，用于查询和修改实例信息、故障排查、迁移、恢复等操作。
 -   rdsRepl：复制帐户，用于备实例或只读实例在主实例上同步数据。
 -   rdsBackup：备份帐户，用于后台的备份。
--   rdsMetric：计量帐户，用于watchdog采集数据库状态数据。
+-   rdsMetric：指标监控帐户，用于watchdog采集数据库状态数据。
 

@@ -32,7 +32,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p21705627155458"><a name="p21705627155458"></a><a name="p21705627155458"></a>该指标用于统计平均每秒SQL语句查询次数，包含存储过程。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p53706368144035"><a name="p53706368144035"></a><a name="p53706368144035"></a>≥0queries/s</p>
+    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p53706368144035"><a name="p53706368144035"></a><a name="p53706368144035"></a>≥0Executions/s</p>
     </td>
     </tr>
     <tr id="row60163003223835"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p52819295155458"><a name="p52819295155458"></a><a name="p52819295155458"></a>TPS</p>
@@ -172,49 +172,49 @@
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p34143626155458"><a name="p34143626155458"></a><a name="p34143626155458"></a>该指标用于统计平均每秒Delete语句执行次数。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p42783561144035"><a name="p42783561144035"></a><a name="p42783561144035"></a>≥0queries/s</p>
+    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p42783561144035"><a name="p42783561144035"></a><a name="p42783561144035"></a>≥0Executions/s</p>
     </td>
     </tr>
     <tr id="row22289597223835"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p60424153155458"><a name="p60424153155458"></a><a name="p60424153155458"></a>Insert语句执行频率</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p62518252155458"><a name="p62518252155458"></a><a name="p62518252155458"></a>该指标用于统计平均每秒Insert语句执行次数。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p42916446144035"><a name="p42916446144035"></a><a name="p42916446144035"></a>≥0queries/s</p>
+    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p42916446144035"><a name="p42916446144035"></a><a name="p42916446144035"></a>≥0Executions/s</p>
     </td>
     </tr>
     <tr id="row39412273223835"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p8887224155458"><a name="p8887224155458"></a><a name="p8887224155458"></a>Insert_Select语句执行频率</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p48776526155458"><a name="p48776526155458"></a><a name="p48776526155458"></a>该指标用于统计平均每秒Insert_Select语句执行次数。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p53680124144035"><a name="p53680124144035"></a><a name="p53680124144035"></a>≥0queries/s</p>
+    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p53680124144035"><a name="p53680124144035"></a><a name="p53680124144035"></a>≥0Executions/s</p>
     </td>
     </tr>
     <tr id="row54174368223835"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p57499082155458"><a name="p57499082155458"></a><a name="p57499082155458"></a>Replace语句执行频率</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p26914095155458"><a name="p26914095155458"></a><a name="p26914095155458"></a>该指标用于统计平均每秒Replace语句执行次数。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p53122762144035"><a name="p53122762144035"></a><a name="p53122762144035"></a>≥0queries/s</p>
+    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p53122762144035"><a name="p53122762144035"></a><a name="p53122762144035"></a>≥0Executions/s</p>
     </td>
     </tr>
     <tr id="row64047853223835"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p24587526155458"><a name="p24587526155458"></a><a name="p24587526155458"></a>Replace_Selection语句执行频率</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p45432595155458"><a name="p45432595155458"></a><a name="p45432595155458"></a>该指标用于统计平均每秒Replace_Selection语句执行次数。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p7976432144035"><a name="p7976432144035"></a><a name="p7976432144035"></a>≥0queries/s</p>
+    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p7976432144035"><a name="p7976432144035"></a><a name="p7976432144035"></a>≥0Executions/s</p>
     </td>
     </tr>
     <tr id="row41679943223835"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p35692328155458"><a name="p35692328155458"></a><a name="p35692328155458"></a>Select语句执行频率</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p5397447155458"><a name="p5397447155458"></a><a name="p5397447155458"></a>该指标用于统计平均每秒Select语句执行次数。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p41783202152527"><a name="p41783202152527"></a><a name="p41783202152527"></a>≥0queries/s</p>
+    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p41783202152527"><a name="p41783202152527"></a><a name="p41783202152527"></a>≥0Executions/s</p>
     </td>
     </tr>
     <tr id="row8489825223835"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p42425333155458"><a name="p42425333155458"></a><a name="p42425333155458"></a>Update语句执行频率</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p13899937155458"><a name="p13899937155458"></a><a name="p13899937155458"></a>该指标用于统计平均每秒Update语句执行次数。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p28275581152531"><a name="p28275581152531"></a><a name="p28275581152531"></a>≥0queries/s</p>
+    <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p28275581152531"><a name="p28275581152531"></a><a name="p28275581152531"></a>≥0Executions/s</p>
     </td>
     </tr>
     <tr id="row12517818223835"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p66724474155458"><a name="p66724474155458"></a><a name="p66724474155458"></a>行删除速率</p>
@@ -254,7 +254,9 @@
     </tr>
     <tr id="row184411277378"><td class="cellrowborder" valign="top" width="23.09%" headers="mcps1.2.4.1.1 "><p id="p13441112711377"><a name="p13441112711377"></a><a name="p13441112711377"></a>复制时延</p>
     </td>
-    <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p1144152793720"><a name="p1144152793720"></a><a name="p1144152793720"></a>该指标用户展示MySQL主从关系中，从节点的数据复制时延。</p>
+    <td class="cellrowborder" valign="top" width="53.59%" headers="mcps1.2.4.1.2 "><p id="p1144152793720"><a name="p1144152793720"></a><a name="p1144152793720"></a>该指标用于展示MySQL主备实例中，备节点的数据复制时延。也用于展示只读实例的数据复制时延。</p>
+    <div class="note" id="note12537191219173"><a name="note12537191219173"></a><a name="note12537191219173"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul1332585702118"></a><a name="ul1332585702118"></a><ul id="ul1332585702118"><li>复制时延指标<strong id="b1641795732510"><a name="b1641795732510"></a><a name="b1641795732510"></a>不显示</strong>在MySQL主备实例的主节点中。如需查看，请至对应备节点的监控指标项中获取该指标信息。</li><li>对于MySQL只读实例，可直接在只读实例的监控指标项中获取该指标信息。</li></ul>
+    </div></div>
     </td>
     <td class="cellrowborder" valign="top" width="23.32%" headers="mcps1.2.4.1.3 "><p id="p184415276375"><a name="p184415276375"></a><a name="p184415276375"></a>≥0Seconds</p>
     </td>
