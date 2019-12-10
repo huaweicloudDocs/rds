@@ -4,26 +4,31 @@
 
 查询关系型数据库当前支持的API版本列表。
 
+-   调用接口前，您需要了解API  [认证权证](认证鉴权.md)。
+-   调用接口前，您需要提前获取到[地区和终端节点](http://developer.huaweicloud.com/endpoint)，即下文中的Endpoint值。
+
 ## URI<a name="section428804115440"></a>
 
 -   URI格式
 
-    PATH：/rds/
+    GET https://\{_Endpoint_\}/rds/
 
-    Method：GET
+-   URI样例
+
+    https://rds.cn-north-1.myhuaweicloud.com/rds/
 
 -   参数说明
 
-    N/A
+    无。
 
 
-## 请求<a name="section2907369315440"></a>
+## 请求消息<a name="section2907369315440"></a>
 
-N/A
+无。
 
-## 正常响应<a name="section5543006115440"></a>
+## 响应消息<a name="section5543006115440"></a>
 
--   要素说明
+-   正常响应要素说明
 
     **表 1**  要素说明
 
@@ -38,7 +43,7 @@ N/A
     </thead>
     <tbody><tr id="row3342858315440"><td class="cellrowborder" valign="top" width="26.26262626262626%" headers="mcps1.2.4.1.1 "><p id="p2336072515440"><a name="p2336072515440"></a><a name="p2336072515440"></a>versions</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40.40404040404041%" headers="mcps1.2.4.1.2 "><p id="p1317054715440"><a name="p1317054715440"></a><a name="p1317054715440"></a>列表数据结构</p>
+    <td class="cellrowborder" valign="top" width="40.40404040404041%" headers="mcps1.2.4.1.2 "><p id="p49221130121216"><a name="p49221130121216"></a><a name="p49221130121216"></a>Array of objects</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p476126915440"><a name="p476126915440"></a><a name="p476126915440"></a>API版本详细信息列表。</p>
     <p id="p877352874313"><a name="p877352874313"></a><a name="p877352874313"></a>详情请参见<a href="#table37479565104653">表2</a>。</p>
@@ -69,7 +74,7 @@ N/A
     </tr>
     <tr id="row1548795912115"><td class="cellrowborder" valign="top" width="26.57%" headers="mcps1.2.4.1.1 "><p id="p26342211121111"><a name="p26342211121111"></a><a name="p26342211121111"></a>links</p>
     </td>
-    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p53344322121111"><a name="p53344322121111"></a><a name="p53344322121111"></a>列表数据结构</p>
+    <td class="cellrowborder" valign="top" width="39.76%" headers="mcps1.2.4.1.2 "><p id="p1329784718535"><a name="p1329784718535"></a><a name="p1329784718535"></a>Array of objects</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.67%" headers="mcps1.2.4.1.3 "><p id="p31978734121111"><a name="p31978734121111"></a><a name="p31978734121111"></a>对应API的链接信息，v1、v3版本该字段为空。</p>
     <p id="p3549257124214"><a name="p3549257124214"></a><a name="p3549257124214"></a>详情请参见<a href="#table630875915440">表3</a>。</p>
@@ -125,26 +130,36 @@ N/A
     </table>
 
 
--   响应样例
+-   正常响应样例
 
     ```
     {
     	"versions": [{
-    		"id": "v1",
-    		"links": [],
-    	        "status": "DEPRECATED",
-    	        "updated": "2017-02-07T17:34:02Z"
-    	}, {
-    		"id": "v3",
-    		"links": [],
-    		"status": "CURRENT",
-    		"updated": "2019-01-15T12:00:00Z"
-    	}]
+    			"id": "v3",
+    			"links": [],
+    			"status": "CURRENT",
+    			"updated": "2019-01-15T12:00:00Z"
+    		},
+    		{
+    			"id": "v1",
+    			"links": [],
+    			"status": "DEPRECATED",
+    			"updated": "2017-02-07T17:34:02Z"
+    		}
+    	]
     }
     ```
 
+-   异常响应
 
-## 异常响应<a name="section4778540915440"></a>
+    请参见[异常请求结果](异常请求结果.md)。
 
-请参见[异常请求结果](zh-cn_topic_0165937647.md)。
+
+## 状态码<a name="section4778540915440"></a>
+
+请参见[状态码](状态码.md)。
+
+## 错误码<a name="section946032144017"></a>
+
+请参见[错误码](错误码.md)。
 

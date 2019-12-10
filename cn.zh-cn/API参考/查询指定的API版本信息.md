@@ -4,13 +4,18 @@
 
 查询API指定版本信息。
 
+-   调用接口前，您需要了解API  [认证权证](认证鉴权.md)。
+-   调用接口前，您需要提前获取到[地区和终端节点](http://developer.huaweicloud.com/endpoint)，即下文中的Endpoint值。
+
 ## URI<a name="section36318247154838"></a>
 
 -   URI格式
 
-    PATH：/rds/\{versionId\}
+    GET https://\{_Endpoint_\}/rds/\{_versionId_\}
 
-    Method：GET
+-   URI样例
+
+    https://rds.cn-north-1.myhuaweicloud.com/rds/v1
 
 -   参数说明
 
@@ -37,13 +42,13 @@
     </table>
 
 
-## 请求<a name="section47398739154838"></a>
+## 请求消息<a name="section47398739154838"></a>
 
-N/A
+无。
 
-## 正常响应<a name="section59724852154838"></a>
+## 响应消息<a name="section59724852154838"></a>
 
--   要素说明
+-   正常响应要素说明
 
     **表 2**  要素说明
 
@@ -58,7 +63,7 @@ N/A
     </thead>
     <tbody><tr id="row24371359105515"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p59749643105536"><a name="p59749643105536"></a><a name="p59749643105536"></a>versions</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p7882916105536"><a name="p7882916105536"></a><a name="p7882916105536"></a>列表数据结构</p>
+    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p7882916105536"><a name="p7882916105536"></a><a name="p7882916105536"></a>Object</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p42392997105536"><a name="p42392997105536"></a><a name="p42392997105536"></a>API版本详细信息列表。</p>
     <p id="p239763262013"><a name="p239763262013"></a><a name="p239763262013"></a>详情请参见<a href="#table57914909154838">表3</a>。</p>
@@ -66,7 +71,7 @@ N/A
     </tr>
     <tr id="row3452848511416"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p4534392511416"><a name="p4534392511416"></a><a name="p4534392511416"></a>version</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p4897932611416"><a name="p4897932611416"></a><a name="p4897932611416"></a>列表数据结构</p>
+    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p4897932611416"><a name="p4897932611416"></a><a name="p4897932611416"></a>Object</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p790243911416"><a name="p790243911416"></a><a name="p790243911416"></a>API版本详细信息列表。</p>
     <p id="p54651241172018"><a name="p54651241172018"></a><a name="p54651241172018"></a>详情请参见<a href="#table57914909154838">表3</a>。</p>
@@ -88,14 +93,14 @@ N/A
     </thead>
     <tbody><tr id="row8231739154838"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p62791086154838"><a name="p62791086154838"></a><a name="p62791086154838"></a>id</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p52913243154838"><a name="p52913243154838"></a><a name="p52913243154838"></a>String。</p>
+    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p52913243154838"><a name="p52913243154838"></a><a name="p52913243154838"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p58114280154838"><a name="p58114280154838"></a><a name="p58114280154838"></a>API版本号。</p>
     </td>
     </tr>
     <tr id="row83118291298"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p2684540212911"><a name="p2684540212911"></a><a name="p2684540212911"></a>links</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p2699394512911"><a name="p2699394512911"></a><a name="p2699394512911"></a>列表数据结构</p>
+    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p2699394512911"><a name="p2699394512911"></a><a name="p2699394512911"></a>Array</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p1568933512911"><a name="p1568933512911"></a><a name="p1568933512911"></a>对应该API版本的链接信息，该字段为空。</p>
     <p id="p13789175472010"><a name="p13789175472010"></a><a name="p13789175472010"></a>详情请参见<a href="#table630875915440">表4</a>。</p>
@@ -103,14 +108,14 @@ N/A
     </tr>
     <tr id="row53266474154838"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p19617131154838"><a name="p19617131154838"></a><a name="p19617131154838"></a>status</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p45483744154838"><a name="p45483744154838"></a><a name="p45483744154838"></a>String。</p>
+    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p45483744154838"><a name="p45483744154838"></a><a name="p45483744154838"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p60304625154838"><a name="p60304625154838"></a><a name="p60304625154838"></a>版本状态。</p>
     </td>
     </tr>
     <tr id="row5870720154838"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p5766344154838"><a name="p5766344154838"></a><a name="p5766344154838"></a>updated</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p64420704154838"><a name="p64420704154838"></a><a name="p64420704154838"></a>String。</p>
+    <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p64420704154838"><a name="p64420704154838"></a><a name="p64420704154838"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p50694512154838"><a name="p50694512154838"></a><a name="p50694512154838"></a>版本更新时间。</p>
     <p id="p53597429154838"><a name="p53597429154838"></a><a name="p53597429154838"></a>格式为“yyyy-mm-dd Thh:mm:ssZ”。</p>
@@ -149,27 +154,35 @@ N/A
     </table>
 
 
--   响应样例
+-   正常响应样例
 
     ```
     {
       "version": {
         "id": "v1",
         "links": [],
-        "status": "CURRENT",
+        "status": "DEPRECATED",
         "updated": "2017-02-07T17:34:02Z"
       },
       "versions": {
         "id": "v1",
         "links": [],
-        "status": "CURRENT",
+        "status": "DEPRECATED",
         "updated": "2017-02-07T17:34:02Z"
       }
     }
     ```
 
+-   异常响应
 
-## 异常响应<a name="section5382712154838"></a>
+    请参见[异常请求结果](异常请求结果.md)。
 
-请参见[异常请求结果](zh-cn_topic_0165937647.md)。
+
+## 状态码<a name="section4778540915440"></a>
+
+请参见[状态码](状态码.md)。
+
+## 错误码<a name="section946032144017"></a>
+
+请参见[错误码](错误码.md)。
 
