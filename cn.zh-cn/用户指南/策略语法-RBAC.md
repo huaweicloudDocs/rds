@@ -5,7 +5,7 @@
 策略结构包括：策略版本号（Version）、策略授权语句（Statement）和策略依赖（Depends）。
 
 **图 1**  策略结构<a name="zh-cn_topic_0172661628_fig16313497"></a>  
-![](figures/策略结构-1.png "策略结构-1")
+![](figures/策略结构-3.png "策略结构-3")
 
 ## 策略语法<a name="zh-cn_topic_0172661628_section30457452"></a>
 

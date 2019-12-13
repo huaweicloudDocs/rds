@@ -16,7 +16,7 @@
 
 如果您忘记了账号的登录密码，可以重置密码，重置方法请参见：[忘记账号密码](https://support.huaweicloud.com/iam_faq/iam_01_0314.html#section0)。
 
-![](figures/IAM登录.png)
+![](figures/1.png)
 
 ## IAM用户<a name="rds_07_0001_zh-cn_topic_0172661624_section50184984"></a>
 
@@ -24,7 +24,7 @@
 
 如果您忘记了IAM用户的登录密码，可以重置密码，重置方法请参见：[IAM用户忘记密码](https://support.huaweicloud.com/iam_faq/iam_01_0314.html#section1)。
 
-![](figures/Snap25.png)
+![](figures/6.png)
 
 ## 账号与IAM用户的关系<a name="rds_07_0001_zh-cn_topic_0172661624_section49011679"></a>
 
