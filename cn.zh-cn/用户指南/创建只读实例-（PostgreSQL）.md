@@ -17,7 +17,7 @@
 3.  选择“数据库  \>  云数据库 RDS“。进入云数据库 RDS信息页面。
 4.  在“实例管理“页面，选择指定的实例，单击操作列的“更多 \> 创建只读”，进入“服务选型”页面。
 
-    您也可在实例的“基本信息“页面，单击实例拓扑图中，主实例下方的添加按钮![](figures/添加只读-18.png)，创建只读实例。
+    您也可在实例的“基本信息“页面，单击实例拓扑图中，主实例下方的添加按钮![](figures/添加只读-26.png)，创建只读实例。
 
 5.  在“服务选型”页面，填选实例相关信息后，单击“立即购买“。
 
@@ -99,7 +99,7 @@
     <tr id="row15865034273"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0104704897_p595744141914"><a name="zh-cn_topic_0104704897_p595744141914"></a><a name="zh-cn_topic_0104704897_p595744141914"></a>磁盘加密</p>
     </td>
     <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><a name="u2597363a1b7143ff970ab2e4246958f6"></a><a name="u2597363a1b7143ff970ab2e4246958f6"></a><ul id="u2597363a1b7143ff970ab2e4246958f6"><li>不加密：未开启加密功能。</li><li>加密：提高数据安全性，对性能有一定影响。<p id="a17a16a1c2ad94e0792279ac47f7fae8e"><a name="a17a16a1c2ad94e0792279ac47f7fae8e"></a><a name="a17a16a1c2ad94e0792279ac47f7fae8e"></a>密钥名称：选择或创建密钥，该密钥是最终租户密钥。</p>
-    <div class="note" id="n84f031fa78db48518e67cda11ff5ea41"><a name="n84f031fa78db48518e67cda11ff5ea41"></a><a name="n84f031fa78db48518e67cda11ff5ea41"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="uc8be307a454d46a08874a85a21814a71"></a><a name="uc8be307a454d46a08874a85a21814a71"></a><ul id="uc8be307a454d46a08874a85a21814a71"><li>实例创建成功后，不可修改磁盘加密状态，且无法更改密钥。存放在对象存储服务上的备份数据不会被加密。</li><li><span>华为云关系型数据库</span>实例创建成功后，请勿禁用或删除正在使用的密钥，否则会导致<span>华为云关系型数据库</span>服务不可用，数据无法恢复。</li><li>仅有专业版密钥管理中的密钥才能对数据库实例进行加密，创建密钥可参考《数据加密服务用户指南》的“创建密钥”章节内容。</li></ul>
+    <div class="note" id="n84f031fa78db48518e67cda11ff5ea41"><a name="n84f031fa78db48518e67cda11ff5ea41"></a><a name="n84f031fa78db48518e67cda11ff5ea41"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="uc8be307a454d46a08874a85a21814a71"></a><a name="uc8be307a454d46a08874a85a21814a71"></a><ul id="uc8be307a454d46a08874a85a21814a71"><li>实例创建成功后，不可修改磁盘加密状态，且无法更改密钥。存放在对象存储服务上的备份数据不会被加密。</li><li><span>华为云关系型数据库</span>实例创建成功后，请勿禁用或删除正在使用的密钥，否则会导致<span>华为云关系型数据库</span>服务不可用，数据无法恢复。</li><li>创建密钥可参考《数据加密服务用户指南》的“创建密钥”章节内容。</li></ul>
     </div></div>
     </li></ul>
     </td>

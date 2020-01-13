@@ -24,7 +24,7 @@ CLR集成安全性相关内容请参见[Microsoft SQL Server官网CLR 集成安�
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >-   “clr enabled“选项。可以使用“clr enabled“选项指定SQL Server是否可以运行用户程序集。  
-    >-   “clr strict security“为SQL Server 2017特有参数。该选项控制 SQL Server中SAFE、EXTERNAL ACCESS、UNSAFE 权限的解释。当值为1时，导致数据库引擎忽略程序集上的 PERMISSION\_SET 信息，并始终将其解释为 UNSAFE。有关详细信息，请参阅[MicrosoftSQL Server官网CLR严格安全性](https://docs.microsoft.com/zh-cn/sql/database-engine/configure-windows/clr-strict-security?view=sql-server-2017)。  
+    >-   “clr strict security“为SQL Server 2017特有参数。该选项控制 SQL Server中SAFE、EXTERNAL ACCESS、UNSAFE 权限的解释。当值为1时，导致数据库引擎忽略程序集上的 PERMISSION\_SET 信息，并始终将其解释为 UNSAFE。有关详细信息，请参阅[Microsoft SQL Server官网CLR严格安全性](https://docs.microsoft.com/zh-cn/sql/database-engine/configure-windows/clr-strict-security?view=sql-server-2017)。  
 
 6.  设置“clr enabled“参数值。
 
