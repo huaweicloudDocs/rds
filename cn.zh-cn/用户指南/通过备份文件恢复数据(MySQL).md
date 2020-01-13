@@ -86,7 +86,7 @@
 
 8.  登录数据库，查看数据恢复结果。
 
-    **mysql -u -root**
+    **mysql -u root**
 
     **show databases**
 

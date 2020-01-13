@@ -42,7 +42,9 @@
 
 执行成功后，系统将会如下提示：
 
-![](figures/执行结果-53.png)
+```
+Commands completed successfully.
+```
 
 ## 示例<a name="section36116480379"></a>
 
@@ -50,5 +52,5 @@
 
 回显如下所示：
 
-![](figures/执行结果-53.png)
+![](figures/执行结果-69.png)
 

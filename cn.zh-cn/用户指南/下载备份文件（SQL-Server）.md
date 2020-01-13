@@ -21,7 +21,7 @@
 5.  在弹出框中选择下载方式。
 
     **图 1**  选择下载方式<a name="fig1692616141119"></a>  
-    ![](figures/选择下载方式-46.png "选择下载方式-46")
+    ![](figures/选择下载方式-62.png "选择下载方式-62")
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >若备份文件大于400MB，建议您使用OBS Broswer下载。  
@@ -29,7 +29,7 @@
     -   **在弹出框中，单击“OBS Browser下载“，单击“确定“，通过OBS Browser客户端下载RDS备份文件**。
 
         **图 2**  下载指导页面<a name="fig172831541171914"></a>  
-        ![](figures/下载指导页面-47.png "下载指导页面-47")
+        ![](figures/下载指导页面-63.png "下载指导页面-63")
 
         1.  单击[图2](#fig172831541171914)步骤1的“OBS Browser“，下载客户端工具OBS Browser。
         2.  解压并安装OBS Browser。
