@@ -16,5 +16,7 @@
 
 执行成功后，系统将会如下提示：
 
-![](figures/sqlserver-agent错误日志结果.png)
+```
+HW_RDS_Process_Successful_Completed
+```
 
