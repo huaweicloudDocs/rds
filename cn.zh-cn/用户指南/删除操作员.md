@@ -52,5 +52,5 @@ Commands completed successfully.
 
 回显如下所示：
 
-![](figures/执行结果-69.png)
+![](figures/执行结果-53.png)
 
