@@ -31,7 +31,7 @@
     ![](figures/General.png "General")
 
     **图 3**  连接信息<a name="fig1037014231499"></a>  
-    ![](figures/连接信息-34.png "连接信息-34")
+    ![](figures/连接信息-23.png "连接信息-23")
 
     关键参数解释：
 

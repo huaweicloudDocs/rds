@@ -49,7 +49,7 @@ PostgreSQL数据库性能监控指标，如[表1](#table46701376141844)所示。
 </td>
 <td class="cellrowborder" valign="top" width="28.352835283528353%" headers="mcps1.2.7.1.3 "><p id="a775c60966f644266948c79c107fa37e8"><a name="a775c60966f644266948c79c107fa37e8"></a><a name="a775c60966f644266948c79c107fa37e8"></a>该指标用于统计测量对象的内存使用率，以比率为单位。</p>
 </td>
-<td class="cellrowborder" valign="top" width="9.980998099809982%" headers="mcps1.2.7.1.4 "><p id="a9c00a0a9619443a58af65a447c164a57"><a name="a9c00a0a9619443a58af65a447c164a57"></a><a name="a9c00a0a9619443a58af65a447c164a57"></a>0-1</p>
+<td class="cellrowborder" valign="top" width="9.980998099809982%" headers="mcps1.2.7.1.4 "><p id="p193641331101511"><a name="p193641331101511"></a><a name="p193641331101511"></a>0-100%</p>
 </td>
 <td class="cellrowborder" valign="top" width="24.122412241224126%" headers="mcps1.2.7.1.5 "><p id="p20304147134615"><a name="p20304147134615"></a><a name="p20304147134615"></a>测量对象：弹性云服务器</p>
 <p id="p9305247154611"><a name="p9305247154611"></a><a name="p9305247154611"></a>监控实例类型：PostgreSQL实例</p>
@@ -105,7 +105,7 @@ PostgreSQL数据库性能监控指标，如[表1](#table46701376141844)所示。
 </td>
 <td class="cellrowborder" valign="top" width="28.352835283528353%" headers="mcps1.2.7.1.3 "><p id="a227244818c874d2bb5a6f63923d3a22b"><a name="a227244818c874d2bb5a6f63923d3a22b"></a><a name="a227244818c874d2bb5a6f63923d3a22b"></a>该指标用于统计测量对象的磁盘利用率，以比率为单位。</p>
 </td>
-<td class="cellrowborder" valign="top" width="9.980998099809982%" headers="mcps1.2.7.1.4 "><p id="a621089c91a5e48b9a70bd2dc3b5ee82e"><a name="a621089c91a5e48b9a70bd2dc3b5ee82e"></a><a name="a621089c91a5e48b9a70bd2dc3b5ee82e"></a>0-1</p>
+<td class="cellrowborder" valign="top" width="9.980998099809982%" headers="mcps1.2.7.1.4 "><p id="p28492171613"><a name="p28492171613"></a><a name="p28492171613"></a>0-100%</p>
 </td>
 <td class="cellrowborder" valign="top" width="24.122412241224126%" headers="mcps1.2.7.1.5 "><p id="p20575932174818"><a name="p20575932174818"></a><a name="p20575932174818"></a>测量对象：弹性云服务器</p>
 <p id="p55751432114818"><a name="p55751432114818"></a><a name="p55751432114818"></a>监控实例类型：PostgreSQL实例</p>
@@ -307,6 +307,48 @@ PostgreSQL数据库性能监控指标，如[表1](#table46701376141844)所示。
 <p id="p16244140114919"><a name="p16244140114919"></a><a name="p16244140114919"></a>监控实例类型：PostgreSQL实例</p>
 </td>
 <td class="cellrowborder" valign="top" width="12.021202120212022%" headers="mcps1.2.7.1.6 "><p id="p385711273316"><a name="p385711273316"></a><a name="p385711273316"></a>1分钟</p>
+</td>
+</tr>
+<tr id="row1832476498"><td class="cellrowborder" valign="top" width="14.081408140814084%" headers="mcps1.2.7.1.1 "><p id="af565492e0e2544b7893ea81ae41f8feb"><a name="af565492e0e2544b7893ea81ae41f8feb"></a><a name="af565492e0e2544b7893ea81ae41f8feb"></a>rds081_qps</p>
+</td>
+<td class="cellrowborder" valign="top" width="11.441144114411443%" headers="mcps1.2.7.1.2 "><p id="a4b0454c0bb3742a0893e325d4a911023"><a name="a4b0454c0bb3742a0893e325d4a911023"></a><a name="a4b0454c0bb3742a0893e325d4a911023"></a>QPS</p>
+</td>
+<td class="cellrowborder" valign="top" width="28.352835283528353%" headers="mcps1.2.7.1.3 "><p id="a46c6593a5ed447b7902588b218025882"><a name="a46c6593a5ed447b7902588b218025882"></a><a name="a46c6593a5ed447b7902588b218025882"></a>该指标用于统计每秒SQL语句查询次数，含存储过程。</p>
+</td>
+<td class="cellrowborder" valign="top" width="9.980998099809982%" headers="mcps1.2.7.1.4 "><p id="ab788e0796e454685b1e22d0d94acbd76"><a name="ab788e0796e454685b1e22d0d94acbd76"></a><a name="ab788e0796e454685b1e22d0d94acbd76"></a>≥ 0 次/秒</p>
+</td>
+<td class="cellrowborder" valign="top" width="24.122412241224126%" headers="mcps1.2.7.1.5 "><p id="p5894554514379"><a name="p5894554514379"></a><a name="p5894554514379"></a>测量对象：数据库</p>
+<p id="p6074786014379"><a name="p6074786014379"></a><a name="p6074786014379"></a>监控实例类型：PostgreSQL实例</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.021202120212022%" headers="mcps1.2.7.1.6 "><p id="p777232910345"><a name="p777232910345"></a><a name="p777232910345"></a>1分钟</p>
+</td>
+</tr>
+<tr id="row1286653693"><td class="cellrowborder" valign="top" width="14.081408140814084%" headers="mcps1.2.7.1.1 "><p id="add6acb746169484fbb2c303720ab1cca"><a name="add6acb746169484fbb2c303720ab1cca"></a><a name="add6acb746169484fbb2c303720ab1cca"></a>rds082_tps</p>
+</td>
+<td class="cellrowborder" valign="top" width="11.441144114411443%" headers="mcps1.2.7.1.2 "><p id="acfda29393e024334b7a19aff8b9bdae5"><a name="acfda29393e024334b7a19aff8b9bdae5"></a><a name="acfda29393e024334b7a19aff8b9bdae5"></a>TPS</p>
+</td>
+<td class="cellrowborder" valign="top" width="28.352835283528353%" headers="mcps1.2.7.1.3 "><p id="ab52ed5869a0b4ee7b2fe668b93391e6a"><a name="ab52ed5869a0b4ee7b2fe668b93391e6a"></a><a name="ab52ed5869a0b4ee7b2fe668b93391e6a"></a>该指标用于统计每秒事务执行次数，含提交的和回退的</p>
+</td>
+<td class="cellrowborder" valign="top" width="9.980998099809982%" headers="mcps1.2.7.1.4 "><p id="a8029df8c6ea74f929f6741ba6a2def9b"><a name="a8029df8c6ea74f929f6741ba6a2def9b"></a><a name="a8029df8c6ea74f929f6741ba6a2def9b"></a>≥ 0 次/秒</p>
+</td>
+<td class="cellrowborder" valign="top" width="24.122412241224126%" headers="mcps1.2.7.1.5 "><p id="p6044915714379"><a name="p6044915714379"></a><a name="p6044915714379"></a>测量对象：数据库</p>
+<p id="p717150714379"><a name="p717150714379"></a><a name="p717150714379"></a>监控实例类型：PostgreSQL实例</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.021202120212022%" headers="mcps1.2.7.1.6 "><p id="p147723297348"><a name="p147723297348"></a><a name="p147723297348"></a>1分钟</p>
+</td>
+</tr>
+<tr id="row19577125221017"><td class="cellrowborder" valign="top" width="14.081408140814084%" headers="mcps1.2.7.1.1 "><p id="p957745218101"><a name="p957745218101"></a><a name="p957745218101"></a>rds083_conn_usage</p>
+</td>
+<td class="cellrowborder" valign="top" width="11.441144114411443%" headers="mcps1.2.7.1.2 "><p id="p1557725220108"><a name="p1557725220108"></a><a name="p1557725220108"></a>连接数使用率</p>
+</td>
+<td class="cellrowborder" valign="top" width="28.352835283528353%" headers="mcps1.2.7.1.3 "><p id="p55771752151015"><a name="p55771752151015"></a><a name="p55771752151015"></a>该指标用于统计当前已用的PgSQL连接数占总连接数的百分比</p>
+</td>
+<td class="cellrowborder" valign="top" width="9.980998099809982%" headers="mcps1.2.7.1.4 "><p id="p870191511155"><a name="p870191511155"></a><a name="p870191511155"></a>0-100%</p>
+</td>
+<td class="cellrowborder" valign="top" width="24.122412241224126%" headers="mcps1.2.7.1.5 "><p id="p16851214144214"><a name="p16851214144214"></a><a name="p16851214144214"></a>测量对象：数据库</p>
+<p id="p6851214124211"><a name="p6851214124211"></a><a name="p6851214124211"></a>监控实例类型：PostgreSQL实例</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.021202120212022%" headers="mcps1.2.7.1.6 "><p id="p385119143424"><a name="p385119143424"></a><a name="p385119143424"></a>1分钟</p>
 </td>
 </tr>
 </tbody>
