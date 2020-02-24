@@ -1,4 +1,4 @@
-# RDS自定义策略<a name="rds_pg_07_0003"></a>
+# RDS自定义策略<a name="rds_07_0003"></a>
 
 如果系统预置的RDS权限，不满足您的授权要求，可以创建自定义策略。自定义策略中可以添加的授权项（Action）请参考[策略及授权项说明](https://support.huaweicloud.com/api-rds/rds_10_0002.html)。
 
@@ -9,7 +9,7 @@
 
 具体创建步骤请参见：[创建自定义策略](https://support.huaweicloud.com/usermanual-iam/iam_01_0605.html)。本章为您介绍常用的RDS自定义策略样例。
 
-## RDS自定义策略样例<a name="rds_07_0003_zh-cn_topic_0172661626_section7689721"></a>
+## RDS自定义策略样例<a name="zh-cn_topic_0172661626_section7689721"></a>
 
 -   示例1：授权用户创建RDS实例
 
