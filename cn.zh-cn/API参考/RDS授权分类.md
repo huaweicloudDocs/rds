@@ -68,13 +68,6 @@
 <tbody><tr id="row940910328345"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p134098324349"><a name="p134098324349"></a><a name="p134098324349"></a>创建数据库实例</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p12573205345917"><a name="p12573205345917"></a><a name="p12573205345917"></a>rds:instance:create</p>
-<p id="p630013604210"><a name="p630013604210"></a><a name="p630013604210"></a>vpc:vpcs:list</p>
-<p id="p2573953135918"><a name="p2573953135918"></a><a name="p2573953135918"></a>vpc:vpcs:get</p>
-<p id="p35731532595"><a name="p35731532595"></a><a name="p35731532595"></a>vpc:subnets:get</p>
-<p id="p75734535595"><a name="p75734535595"></a><a name="p75734535595"></a>vpc:securityGroups:get</p>
-<p id="p2573105355914"><a name="p2573105355914"></a><a name="p2573105355914"></a>vpc:ports:get</p>
-<p id="p18573155311597"><a name="p18573155311597"></a><a name="p18573155311597"></a>vpc:ports:create</p>
-<p id="p20573195317591"><a name="p20573195317591"></a><a name="p20573195317591"></a>vpc:ports:update</p>
 <p id="p20355357173820"><a name="p20355357173820"></a><a name="p20355357173820"></a>（创建加密实例需要在项目上配置KMS Administrator权限。）</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><a name="ul1828847133916"></a><a name="ul1828847133916"></a><ul id="ul1828847133916"><li>支持：</li></ul>
@@ -88,14 +81,6 @@
 <tr id="row4409113243419"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p16409113219342"><a name="p16409113219342"></a><a name="p16409113219342"></a>变更数据库实例的规格</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p1274127504"><a name="p1274127504"></a><a name="p1274127504"></a>rds:instance:modifySpec</p>
-<p id="p326135217413"><a name="p326135217413"></a><a name="p326135217413"></a>vpc:vpcs:list</p>
-<p id="p72743720020"><a name="p72743720020"></a><a name="p72743720020"></a>vpc:vpcs:get</p>
-<p id="p17274971205"><a name="p17274971205"></a><a name="p17274971205"></a>vpc:subnets:get</p>
-<p id="p1727410711014"><a name="p1727410711014"></a><a name="p1727410711014"></a>vpc:securityGroups:get</p>
-<p id="p14274177013"><a name="p14274177013"></a><a name="p14274177013"></a>vpc:ports:get</p>
-<p id="p32741273017"><a name="p32741273017"></a><a name="p32741273017"></a>vpc:ports:create</p>
-<p id="p227420720017"><a name="p227420720017"></a><a name="p227420720017"></a>vpc:ports:update</p>
-<p id="p122743717010"><a name="p122743717010"></a><a name="p122743717010"></a>vpc:ports:delete</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><a name="ul381160134314"></a><a name="ul381160134314"></a><ul id="ul381160134314"><li>支持：</li></ul>
 <p id="p781119084312"><a name="p781119084312"></a><a name="p781119084312"></a><strong id="b188111905439"><a name="b188111905439"></a><a name="b188111905439"></a>IAM</strong>项目(Project)</p>
@@ -120,13 +105,6 @@
 <tr id="row940903217346"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p24095320340"><a name="p24095320340"></a><a name="p24095320340"></a>单机转主备实例</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p199318201605"><a name="p199318201605"></a><a name="p199318201605"></a>rds:instance:singleToHa</p>
-<p id="p83557218422"><a name="p83557218422"></a><a name="p83557218422"></a>vpc:vpcs:list</p>
-<p id="p1593110206018"><a name="p1593110206018"></a><a name="p1593110206018"></a>vpc:vpcs:get</p>
-<p id="p1793114201706"><a name="p1793114201706"></a><a name="p1793114201706"></a>vpc:subnets:get</p>
-<p id="p693112017016"><a name="p693112017016"></a><a name="p693112017016"></a>vpc:securityGroups:get</p>
-<p id="p1093214209015"><a name="p1093214209015"></a><a name="p1093214209015"></a>vpc:ports:get</p>
-<p id="p1193262011019"><a name="p1193262011019"></a><a name="p1193262011019"></a>vpc:ports:create</p>
-<p id="p1093217201300"><a name="p1093217201300"></a><a name="p1093217201300"></a>vpc:ports:update</p>
 <p id="p99328140391"><a name="p99328140391"></a><a name="p99328140391"></a>（加密实例需要在项目上配置KMS Administrator权限。）</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><a name="ul524483134316"></a><a name="ul524483134316"></a><ul id="ul524483134316"><li>支持：</li></ul>
@@ -152,7 +130,6 @@
 <tr id="row124101132153415"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p941013219348"><a name="p941013219348"></a><a name="p941013219348"></a>删除数据库实例</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p1584317471016"><a name="p1584317471016"></a><a name="p1584317471016"></a>rds:instance:delete</p>
-<p id="p13843147609"><a name="p13843147609"></a><a name="p13843147609"></a>vpc:ports:delete</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><a name="ul683316142167"></a><a name="ul683316142167"></a><ul id="ul683316142167"><li>支持：</li></ul>
 <p id="p1083311410167"><a name="p1083311410167"></a><a name="p1083311410167"></a><strong id="b12833914181612"><a name="b12833914181612"></a><a name="b12833914181612"></a>IAM</strong>项目(Project)</p>
@@ -174,27 +151,51 @@
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p16910115314015"><a name="p16910115314015"></a><a name="p16910115314015"></a>GET /v3/{project_id}/instances</p>
 </td>
 </tr>
+<tr id="row1564915215315"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p96491295318"><a name="p96491295318"></a><a name="p96491295318"></a>绑定和解绑弹性公网IP</p>
+</td>
+<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p166491529535"><a name="p166491529535"></a><a name="p166491529535"></a>rds:instance:modifyPublicAccess</p>
+</td>
+<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><a name="ul739318463543"></a><a name="ul739318463543"></a><ul id="ul739318463543"><li>支持：</li></ul>
+<p id="p43931746115412"><a name="p43931746115412"></a><a name="p43931746115412"></a><strong id="b17393146155410"><a name="b17393146155410"></a><a name="b17393146155410"></a>IAM</strong>项目(Project)</p>
+<a name="ul9393246105417"></a><a name="ul9393246105417"></a><ul id="ul9393246105417"><li>支持：</li></ul>
+<p id="p539464617546"><a name="p539464617546"></a><a name="p539464617546"></a>企业项目(Enterprise Project)</p>
+</td>
+<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p19649132145317"><a name="p19649132145317"></a><a name="p19649132145317"></a>PUT /v3/{project_id}/instances/{instance_id}/public-ip</p>
+</td>
+</tr>
+<tr id="row1658943353618"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p125901733133614"><a name="p125901733133614"></a><a name="p125901733133614"></a>修改数据库实例密码</p>
+</td>
+<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p5590133311361"><a name="p5590133311361"></a><a name="p5590133311361"></a>rds:password:update</p>
+</td>
+<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><a name="ul137111117371"></a><a name="ul137111117371"></a><ul id="ul137111117371"><li>支持：</li></ul>
+<p id="p1671141113377"><a name="p1671141113377"></a><a name="p1671141113377"></a><strong id="b147121133715"><a name="b147121133715"></a><a name="b147121133715"></a>IAM</strong>项目(Project)</p>
+<a name="ul1771131193713"></a><a name="ul1771131193713"></a><ul id="ul1771131193713"><li>支持：</li></ul>
+<p id="p571161153720"><a name="p571161153720"></a><a name="p571161153720"></a>企业项目(Enterprise Project)</p>
+</td>
+<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p340821711371"><a name="p340821711371"></a><a name="p340821711371"></a>PUT /v3/{project_id}/instances/{instance_id}/password</p>
+</td>
+</tr>
 </tbody>
 </table>
 
 **表 3**  参数配置
 
 <a name="table15662154114810"></a>
-<table><thead align="left"><tr id="row176775434816"><th class="cellrowborder" valign="top" width="23.282328232823282%" id="mcps1.2.5.1.1"><p id="p13767125418487"><a name="p13767125418487"></a><a name="p13767125418487"></a>API功能</p>
+<table><thead align="left"><tr id="row176775434816"><th class="cellrowborder" valign="top" width="25.522552255225524%" id="mcps1.2.5.1.1"><p id="p13767125418487"><a name="p13767125418487"></a><a name="p13767125418487"></a>API功能</p>
 </th>
-<th class="cellrowborder" valign="top" width="28.232823282328233%" id="mcps1.2.5.1.2"><p id="p27671544481"><a name="p27671544481"></a><a name="p27671544481"></a>授权项</p>
+<th class="cellrowborder" valign="top" width="24.74247424742474%" id="mcps1.2.5.1.2"><p id="p27671544481"><a name="p27671544481"></a><a name="p27671544481"></a>授权项</p>
 </th>
-<th class="cellrowborder" valign="top" width="24.242424242424242%" id="mcps1.2.5.1.3"><p id="p1376765411489"><a name="p1376765411489"></a><a name="p1376765411489"></a>授权范围</p>
+<th class="cellrowborder" valign="top" width="25.492549254925496%" id="mcps1.2.5.1.3"><p id="p1376765411489"><a name="p1376765411489"></a><a name="p1376765411489"></a>授权范围</p>
 </th>
 <th class="cellrowborder" valign="top" width="24.242424242424242%" id="mcps1.2.5.1.4"><p id="p6767554104814"><a name="p6767554104814"></a><a name="p6767554104814"></a>对应API接口</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row39341118114016"><td class="cellrowborder" valign="top" width="23.282328232823282%" headers="mcps1.2.5.1.1 "><p id="p493531824011"><a name="p493531824011"></a><a name="p493531824011"></a>获取参数模板列表</p>
+<tbody><tr id="row39341118114016"><td class="cellrowborder" valign="top" width="25.522552255225524%" headers="mcps1.2.5.1.1 "><p id="p493531824011"><a name="p493531824011"></a><a name="p493531824011"></a>获取参数模板列表</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.232823282328233%" headers="mcps1.2.5.1.2 "><p id="p3936171816403"><a name="p3936171816403"></a><a name="p3936171816403"></a>rds:param:list</p>
+<td class="cellrowborder" valign="top" width="24.74247424742474%" headers="mcps1.2.5.1.2 "><p id="p3936171816403"><a name="p3936171816403"></a><a name="p3936171816403"></a>rds:param:list</p>
 </td>
-<td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.3 "><a name="ul6583191817419"></a><a name="ul6583191817419"></a><ul id="ul6583191817419"><li>支持：</li></ul>
+<td class="cellrowborder" valign="top" width="25.492549254925496%" headers="mcps1.2.5.1.3 "><a name="ul6583191817419"></a><a name="ul6583191817419"></a><ul id="ul6583191817419"><li>支持：</li></ul>
 <p id="p3584111810414"><a name="p3584111810414"></a><a name="p3584111810414"></a><strong id="b358415189417"><a name="b358415189417"></a><a name="b358415189417"></a>IAM</strong>项目(Project)</p>
 <a name="ul1158416187417"></a><a name="ul1158416187417"></a><ul id="ul1158416187417"><li>支持：</li></ul>
 <p id="p1858431811419"><a name="p1858431811419"></a><a name="p1858431811419"></a>企业项目(Enterprise Project)</p>
@@ -202,11 +203,11 @@
 <td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.4 "><p id="p1693681810401"><a name="p1693681810401"></a><a name="p1693681810401"></a>GET /v3/{project_id}/configurations</p>
 </td>
 </tr>
-<tr id="row7140113964115"><td class="cellrowborder" valign="top" width="23.282328232823282%" headers="mcps1.2.5.1.1 "><p id="p114113913411"><a name="p114113913411"></a><a name="p114113913411"></a>创建参数模板</p>
+<tr id="row7140113964115"><td class="cellrowborder" valign="top" width="25.522552255225524%" headers="mcps1.2.5.1.1 "><p id="p114113913411"><a name="p114113913411"></a><a name="p114113913411"></a>创建参数模板</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.232823282328233%" headers="mcps1.2.5.1.2 "><p id="p1714193918414"><a name="p1714193918414"></a><a name="p1714193918414"></a>rds:param:create</p>
+<td class="cellrowborder" valign="top" width="24.74247424742474%" headers="mcps1.2.5.1.2 "><p id="p1714193918414"><a name="p1714193918414"></a><a name="p1714193918414"></a>rds:param:create</p>
 </td>
-<td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.3 "><a name="ul8960194754111"></a><a name="ul8960194754111"></a><ul id="ul8960194754111"><li>支持：</li></ul>
+<td class="cellrowborder" valign="top" width="25.492549254925496%" headers="mcps1.2.5.1.3 "><a name="ul8960194754111"></a><a name="ul8960194754111"></a><ul id="ul8960194754111"><li>支持：</li></ul>
 <p id="p15960647194112"><a name="p15960647194112"></a><a name="p15960647194112"></a><strong id="b1196017477412"><a name="b1196017477412"></a><a name="b1196017477412"></a>IAM</strong>项目(Project)</p>
 <a name="ul13960147204110"></a><a name="ul13960147204110"></a><ul id="ul13960147204110"><li>支持：</li></ul>
 <p id="p19960647194113"><a name="p19960647194113"></a><a name="p19960647194113"></a>企业项目(Enterprise Project)</p>
@@ -214,11 +215,11 @@
 <td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.4 "><p id="p1614193919416"><a name="p1614193919416"></a><a name="p1614193919416"></a>POST /v3/{project_id}/configurations</p>
 </td>
 </tr>
-<tr id="row45921715164220"><td class="cellrowborder" valign="top" width="23.282328232823282%" headers="mcps1.2.5.1.1 "><p id="p195921215104217"><a name="p195921215104217"></a><a name="p195921215104217"></a>修改参数模板参数</p>
+<tr id="row45921715164220"><td class="cellrowborder" valign="top" width="25.522552255225524%" headers="mcps1.2.5.1.1 "><p id="p195921215104217"><a name="p195921215104217"></a><a name="p195921215104217"></a>修改参数模板参数</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.232823282328233%" headers="mcps1.2.5.1.2 "><p id="p145921015114210"><a name="p145921015114210"></a><a name="p145921015114210"></a>rds:param:modify</p>
+<td class="cellrowborder" valign="top" width="24.74247424742474%" headers="mcps1.2.5.1.2 "><p id="p145921015114210"><a name="p145921015114210"></a><a name="p145921015114210"></a>rds:param:modify</p>
 </td>
-<td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.3 "><a name="ul1071762824216"></a><a name="ul1071762824216"></a><ul id="ul1071762824216"><li>支持：</li></ul>
+<td class="cellrowborder" valign="top" width="25.492549254925496%" headers="mcps1.2.5.1.3 "><a name="ul1071762824216"></a><a name="ul1071762824216"></a><ul id="ul1071762824216"><li>支持：</li></ul>
 <p id="p1717122817429"><a name="p1717122817429"></a><a name="p1717122817429"></a><strong id="b12717192810424"><a name="b12717192810424"></a><a name="b12717192810424"></a>IAM</strong>项目(Project)</p>
 <a name="ul071732884210"></a><a name="ul071732884210"></a><ul id="ul071732884210"><li>支持：</li></ul>
 <p id="p0717628154216"><a name="p0717628154216"></a><a name="p0717628154216"></a>企业项目(Enterprise Project)</p>
@@ -226,11 +227,11 @@
 <td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.4 "><p id="p1259261512424"><a name="p1259261512424"></a><a name="p1259261512424"></a>PUT /v3/{project_id}/configurations/{config_id}</p>
 </td>
 </tr>
-<tr id="row1575310595431"><td class="cellrowborder" valign="top" width="23.282328232823282%" headers="mcps1.2.5.1.1 "><p id="p11562115446"><a name="p11562115446"></a><a name="p11562115446"></a>应用参数模板</p>
+<tr id="row1575310595431"><td class="cellrowborder" valign="top" width="25.522552255225524%" headers="mcps1.2.5.1.1 "><p id="p11562115446"><a name="p11562115446"></a><a name="p11562115446"></a>应用参数模板</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.232823282328233%" headers="mcps1.2.5.1.2 "><p id="p71561110444"><a name="p71561110444"></a><a name="p71561110444"></a>rds:param:apply</p>
+<td class="cellrowborder" valign="top" width="24.74247424742474%" headers="mcps1.2.5.1.2 "><p id="p71561110444"><a name="p71561110444"></a><a name="p71561110444"></a>rds:param:apply</p>
 </td>
-<td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.3 "><a name="ul415611164418"></a><a name="ul415611164418"></a><ul id="ul415611164418"><li>支持：</li></ul>
+<td class="cellrowborder" valign="top" width="25.492549254925496%" headers="mcps1.2.5.1.3 "><a name="ul415611164418"></a><a name="ul415611164418"></a><ul id="ul415611164418"><li>支持：</li></ul>
 <p id="p1215613118449"><a name="p1215613118449"></a><a name="p1215613118449"></a><strong id="b01569154419"><a name="b01569154419"></a><a name="b01569154419"></a>IAM</strong>项目(Project)</p>
 <a name="ul15156121204413"></a><a name="ul15156121204413"></a><ul id="ul15156121204413"><li>支持：</li></ul>
 <p id="p4156191154417"><a name="p4156191154417"></a><a name="p4156191154417"></a>企业项目(Enterprise Project)</p>
@@ -238,11 +239,11 @@
 <td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.4 "><p id="p1215616112449"><a name="p1215616112449"></a><a name="p1215616112449"></a>PUT /v3/{project_id}/configurations/{config_id}/apply</p>
 </td>
 </tr>
-<tr id="row107027114419"><td class="cellrowborder" valign="top" width="23.282328232823282%" headers="mcps1.2.5.1.1 "><p id="p12751628184411"><a name="p12751628184411"></a><a name="p12751628184411"></a>修改指定实例的参数</p>
+<tr id="row107027114419"><td class="cellrowborder" valign="top" width="25.522552255225524%" headers="mcps1.2.5.1.1 "><p id="p12751628184411"><a name="p12751628184411"></a><a name="p12751628184411"></a>修改指定实例的参数</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.232823282328233%" headers="mcps1.2.5.1.2 "><p id="p1527513282443"><a name="p1527513282443"></a><a name="p1527513282443"></a>rds:param:modify</p>
+<td class="cellrowborder" valign="top" width="24.74247424742474%" headers="mcps1.2.5.1.2 "><p id="p1527513282443"><a name="p1527513282443"></a><a name="p1527513282443"></a>rds:param:modify</p>
 </td>
-<td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.3 "><a name="ul10275828114412"></a><a name="ul10275828114412"></a><ul id="ul10275828114412"><li>支持：</li></ul>
+<td class="cellrowborder" valign="top" width="25.492549254925496%" headers="mcps1.2.5.1.3 "><a name="ul10275828114412"></a><a name="ul10275828114412"></a><ul id="ul10275828114412"><li>支持：</li></ul>
 <p id="p62753288447"><a name="p62753288447"></a><a name="p62753288447"></a><strong id="b162751128114418"><a name="b162751128114418"></a><a name="b162751128114418"></a>IAM</strong>项目(Project)</p>
 <a name="ul1727692815447"></a><a name="ul1727692815447"></a><ul id="ul1727692815447"><li>支持：</li></ul>
 <p id="p72761028144418"><a name="p72761028144418"></a><a name="p72761028144418"></a>企业项目(Enterprise Project)</p>
@@ -250,11 +251,11 @@
 <td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.4 "><p id="p20276182814413"><a name="p20276182814413"></a><a name="p20276182814413"></a>PUT /v3/{project_id}/instances/{instance_id}/configurations</p>
 </td>
 </tr>
-<tr id="row4767105413489"><td class="cellrowborder" valign="top" width="23.282328232823282%" headers="mcps1.2.5.1.1 "><p id="p1076725420485"><a name="p1076725420485"></a><a name="p1076725420485"></a>获取指定实例的参数模板</p>
+<tr id="row4767105413489"><td class="cellrowborder" valign="top" width="25.522552255225524%" headers="mcps1.2.5.1.1 "><p id="p1076725420485"><a name="p1076725420485"></a><a name="p1076725420485"></a>获取指定实例的参数模板</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.232823282328233%" headers="mcps1.2.5.1.2 "><p id="p67981758205717"><a name="p67981758205717"></a><a name="p67981758205717"></a>rds:param:list</p>
+<td class="cellrowborder" valign="top" width="24.74247424742474%" headers="mcps1.2.5.1.2 "><p id="p67981758205717"><a name="p67981758205717"></a><a name="p67981758205717"></a>rds:param:list</p>
 </td>
-<td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.3 "><a name="ul5768125414488"></a><a name="ul5768125414488"></a><ul id="ul5768125414488"><li>支持：</li></ul>
+<td class="cellrowborder" valign="top" width="25.492549254925496%" headers="mcps1.2.5.1.3 "><a name="ul5768125414488"></a><a name="ul5768125414488"></a><ul id="ul5768125414488"><li>支持：</li></ul>
 <p id="p1276855464818"><a name="p1276855464818"></a><a name="p1276855464818"></a><strong id="b11768175412488"><a name="b11768175412488"></a><a name="b11768175412488"></a>IAM</strong>项目(Project)</p>
 <a name="ul18768195484818"></a><a name="ul18768195484818"></a><ul id="ul18768195484818"><li>支持：</li></ul>
 <p id="p77682542484"><a name="p77682542484"></a><a name="p77682542484"></a>企业项目(Enterprise Project)</p>
@@ -262,11 +263,11 @@
 <td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.4 "><p id="p13768165414480"><a name="p13768165414480"></a><a name="p13768165414480"></a>GET /v3/{project_id}/instances/{instance_id}/configurations</p>
 </td>
 </tr>
-<tr id="row08781252114411"><td class="cellrowborder" valign="top" width="23.282328232823282%" headers="mcps1.2.5.1.1 "><p id="p158781552124416"><a name="p158781552124416"></a><a name="p158781552124416"></a>获取指定参数模板的参数</p>
+<tr id="row08781252114411"><td class="cellrowborder" valign="top" width="25.522552255225524%" headers="mcps1.2.5.1.1 "><p id="p158781552124416"><a name="p158781552124416"></a><a name="p158781552124416"></a>获取指定参数模板的参数</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.232823282328233%" headers="mcps1.2.5.1.2 "><p id="p387913522449"><a name="p387913522449"></a><a name="p387913522449"></a>rds:param:list</p>
+<td class="cellrowborder" valign="top" width="24.74247424742474%" headers="mcps1.2.5.1.2 "><p id="p387913522449"><a name="p387913522449"></a><a name="p387913522449"></a>rds:param:list</p>
 </td>
-<td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.3 "><a name="ul175811884519"></a><a name="ul175811884519"></a><ul id="ul175811884519"><li>支持：</li></ul>
+<td class="cellrowborder" valign="top" width="25.492549254925496%" headers="mcps1.2.5.1.3 "><a name="ul175811884519"></a><a name="ul175811884519"></a><ul id="ul175811884519"><li>支持：</li></ul>
 <p id="p959158144513"><a name="p959158144513"></a><a name="p959158144513"></a><strong id="b65968194516"><a name="b65968194516"></a><a name="b65968194516"></a>IAM</strong>项目(Project)</p>
 <a name="ul14595813456"></a><a name="ul14595813456"></a><ul id="ul14595813456"><li>支持：</li></ul>
 <p id="p0591683455"><a name="p0591683455"></a><a name="p0591683455"></a>企业项目(Enterprise Project)</p>
@@ -274,11 +275,11 @@
 <td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.4 "><p id="p148792526445"><a name="p148792526445"></a><a name="p148792526445"></a>GET /v3/{project_id}/configurations/{config_id}</p>
 </td>
 </tr>
-<tr id="row168871289458"><td class="cellrowborder" valign="top" width="23.282328232823282%" headers="mcps1.2.5.1.1 "><p id="p1088717282458"><a name="p1088717282458"></a><a name="p1088717282458"></a>删除参数模板</p>
+<tr id="row168871289458"><td class="cellrowborder" valign="top" width="25.522552255225524%" headers="mcps1.2.5.1.1 "><p id="p1088717282458"><a name="p1088717282458"></a><a name="p1088717282458"></a>删除参数模板</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.232823282328233%" headers="mcps1.2.5.1.2 "><p id="p148871284459"><a name="p148871284459"></a><a name="p148871284459"></a>rds:param:delete</p>
+<td class="cellrowborder" valign="top" width="24.74247424742474%" headers="mcps1.2.5.1.2 "><p id="p148871284459"><a name="p148871284459"></a><a name="p148871284459"></a>rds:param:delete</p>
 </td>
-<td class="cellrowborder" valign="top" width="24.242424242424242%" headers="mcps1.2.5.1.3 "><a name="ul124856376456"></a><a name="ul124856376456"></a><ul id="ul124856376456"><li>支持：</li></ul>
+<td class="cellrowborder" valign="top" width="25.492549254925496%" headers="mcps1.2.5.1.3 "><a name="ul124856376456"></a><a name="ul124856376456"></a><ul id="ul124856376456"><li>支持：</li></ul>
 <p id="p04855379459"><a name="p04855379459"></a><a name="p04855379459"></a><strong id="b194850376454"><a name="b194850376454"></a><a name="b194850376454"></a>IAM</strong>项目(Project)</p>
 <a name="ul54851237114516"></a><a name="ul54851237114516"></a><ul id="ul54851237114516"><li>支持：</li></ul>
 <p id="p11485163764513"><a name="p11485163764513"></a><a name="p11485163764513"></a>企业项目(Enterprise Project)</p>
@@ -389,13 +390,6 @@
 <tr id="row14112939226"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p211223919217"><a name="p211223919217"></a><a name="p211223919217"></a>恢复到新实例</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p8393351115820"><a name="p8393351115820"></a><a name="p8393351115820"></a>rds:instance:create</p>
-<p id="p151551113144219"><a name="p151551113144219"></a><a name="p151551113144219"></a>vpc:vpcs:list</p>
-<p id="p1439305115820"><a name="p1439305115820"></a><a name="p1439305115820"></a>vpc:vpcs:get</p>
-<p id="p19394155155812"><a name="p19394155155812"></a><a name="p19394155155812"></a>vpc:subnets:get</p>
-<p id="p133941851105818"><a name="p133941851105818"></a><a name="p133941851105818"></a>vpc:securityGroups:get</p>
-<p id="p539425195815"><a name="p539425195815"></a><a name="p539425195815"></a>vpc:ports:get</p>
-<p id="p13394251105813"><a name="p13394251105813"></a><a name="p13394251105813"></a>vpc:ports:create</p>
-<p id="p139425114581"><a name="p139425114581"></a><a name="p139425114581"></a>vpc:ports:update</p>
 <p id="p646922710397"><a name="p646922710397"></a><a name="p646922710397"></a>（加密实例需要在项目上配置KMS Administrator权限。）</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><a name="ul1752440645"></a><a name="ul1752440645"></a><ul id="ul1752440645"><li>支持：</li></ul>

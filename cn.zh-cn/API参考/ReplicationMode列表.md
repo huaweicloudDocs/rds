@@ -1,4 +1,4 @@
-# ReplicationMode列表<a name="zh-cn_topic_0032488243"></a>
+# ReplicationMode列表<a name="rds_10_0203"></a>
 
 ReplicationMode列表
 
