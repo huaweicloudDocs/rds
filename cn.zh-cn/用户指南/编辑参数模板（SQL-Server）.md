@@ -1,4 +1,4 @@
-# 编辑参数模板<a name="zh-cn_topic_sqlserver_configuration"></a>
+# 编辑参数模板<a name="rds_sqlserver_configuration"></a>
 
 为确保华为云关系型数据库服务发挥出最优性能，用户可根据业务需求对用户创建的参数模板里边的参数进行调整。
 
@@ -42,7 +42,7 @@
     参数修改完成后，您可[查看参数修改历史](查看参数修改历史（SQL-Server）.md)。
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
-    >有关参数模板状态，请参见[状态](https://support.huaweicloud.com/productdesc-rds/zh-cn_topic_0032472291.html)中的参数模板状态内容。  
+    >有关参数模板状态，请参见[状态](https://support.huaweicloud.com/productdesc-rds/rds_01_0023.html)中的参数模板状态内容。  
 
 
 ## 修改当前实例的参数模板<a name="section32191319235"></a>
@@ -63,7 +63,7 @@
 
     >![](public_sys-resources/icon-notice.gif) **须知：**   
     >参数模板修改后，会立即应用到当前实例。  
-    >有关参数模板状态，请参见[状态](https://support.huaweicloud.com/productdesc-rds/zh-cn_topic_0032472291.html)中的参数模板状态内容。  
+    >有关参数模板状态，请参见[状态](https://support.huaweicloud.com/productdesc-rds/rds_01_0023.html)中的参数模板状态内容。  
     >对于某些参数修改后，您需在实例列表中，查看状态，如果显示参数模板变更，等待重启，则需重启实例使之生效。  
     >-   修改主实例的某些参数（如果是主备实例，备实例的参数也会被同步修改），需重启主实例使之生效。  
     >-   修改只读实例的某些参数，需要重启该只读实例使之生效。  

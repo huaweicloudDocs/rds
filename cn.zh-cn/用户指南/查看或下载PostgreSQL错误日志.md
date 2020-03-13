@@ -1,4 +1,4 @@
-# 查看或下载错误日志<a name="zh-cn_topic_recent_log"></a>
+# 查看或下载错误日志<a name="rds_recent_log"></a>
 
 ## 操作场景<a name="section3875498517050"></a>
 

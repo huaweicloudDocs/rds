@@ -15,7 +15,7 @@
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >8.0版本不支持修改该参数。  
 
-    **影响：**修改数据库主实例默认参数值时，用户需要手动同步修改只读实例、灾备实例、通过备份恢复至目标实例的参数。当主实例区分大小写，而只读实例、灾备实例、通过备份恢复至目标实例不区分大小写时，比如主实例先后创建两张表，表名分别为  “abc“、“Abc “时，会导致数据同步、数据恢复异常，原因为“abc“表名已存在。
+    **影响：**修改数据库主实例默认参数值时，用户需要手动同步修改只读实例、通过备份恢复至目标实例的参数。当主实例区分大小写，而只读实例、通过备份恢复至目标实例不区分大小写时，比如主实例先后创建两张表，表名分别为  “abc“、“Abc “时，会导致数据同步、数据恢复异常，原因为“abc“表名已存在。
 
 -   “innodb\_flush\_log\_at\_trx\_commit“
 
@@ -62,5 +62,9 @@
     -   “query\_cache\_size“、“query\_prealloc\_size“、“innodb\_log\_buffer\_size“和“max\_allowed\_packet “、“thread\_stack “会自动调整为1024的倍数。
     -   “read\_buffer\_size“、“read\_rnd\_buffer\_size“、“binlog\_cache\_size “、“binlog\_stmt\_cache\_size “会自动调整为4096的倍数。
     -   “data\_buffer\_size“、“log\_buffer\_size“、“shared\_pool\_size“、“temp\_buffer\_size “会自动调整为1048576的倍数。
+
+-   **“binlog\_format“：**默认设置为row，表示将binlog记录成每一行数据被修改的形式，包括修改前和修改后的数据。
+
+    建议不要对该参数进行修改，否则可能影响您的正常使用。
 
 

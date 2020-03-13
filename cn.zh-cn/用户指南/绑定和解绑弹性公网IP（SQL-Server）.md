@@ -1,4 +1,4 @@
-# 绑定和解绑弹性公网IP<a name="zh-cn_topic_public_sqlserver_accessibility"></a>
+# 绑定和解绑弹性公网IP<a name="rds_sqlserver_0025"></a>
 
 ## 操作场景<a name="zh-cn_topic_0192953725_section26758795194119"></a>
 

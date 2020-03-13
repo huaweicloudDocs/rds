@@ -1,4 +1,4 @@
-# 绑定和解绑弹性公网IP<a name="zh-cn_topic_pg_public_accessibility"></a>
+# 绑定和解绑弹性公网IP<a name="rds_pg_public_accessibility"></a>
 
 ## 操作场景<a name="zh-cn_topic_0192953725_section26758795194119"></a>
 

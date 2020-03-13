@@ -17,7 +17,7 @@
 3.  选择“数据库  \>  云数据库 RDS“。进入云数据库 RDS信息页面。
 4.  在“实例管理“页面，选择指定的实例，单击操作列的“更多 \> 创建只读”，进入“服务选型”页面。
 
-    您也可在实例的“基本信息“页面，单击实例拓扑图中，主实例下方的添加按钮![](figures/添加只读-13.png)，创建只读实例。
+    您也可在实例的“基本信息“页面，单击实例拓扑图中，主实例下方的添加按钮![](figures/添加只读-17.png)，创建只读实例。
 
 5.  在“服务选型”页面，填选实例相关信息后，单击“立即创建“。
 
@@ -71,7 +71,7 @@
     <tbody><tr id="r00fdd9f8134240838d06a3321a77c2ce"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="a5859384263c14ec894f66ca225c4b2b1"><a name="a5859384263c14ec894f66ca225c4b2b1"></a><a name="a5859384263c14ec894f66ca225c4b2b1"></a>性能规格</p>
     </td>
     <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="a6dd1e8437a244c7993a0392e5905ae97"><a name="a6dd1e8437a244c7993a0392e5905ae97"></a><a name="a6dd1e8437a244c7993a0392e5905ae97"></a>实例的CPU和内存。不同性能规格对应不同连接数和最大IOPS。</p>
-    <p id="zh-cn_topic_0104704897_p781114612508"><a name="zh-cn_topic_0104704897_p781114612508"></a><a name="zh-cn_topic_0104704897_p781114612508"></a>关于性能规格详情，请参见<a href="https://support.huaweicloud.com/productdesc-rds/zh-cn_topic_0043898355.html" target="_blank" rel="noopener noreferrer">数据库实例规格</a>。</p>
+    <p id="zh-cn_topic_0104704897_p781114612508"><a name="zh-cn_topic_0104704897_p781114612508"></a><a name="zh-cn_topic_0104704897_p781114612508"></a>关于性能规格详情，请参见<a href="https://support.huaweicloud.com/productdesc-rds/rds_01_0029.html" target="_blank" rel="noopener noreferrer">数据库实例规格</a>。</p>
     <p id="zh-cn_topic_0104704897_p5429821515"><a name="zh-cn_topic_0104704897_p5429821515"></a><a name="zh-cn_topic_0104704897_p5429821515"></a></p>
     <p id="zh-cn_topic_0104704897_p12042810516"><a name="zh-cn_topic_0104704897_p12042810516"></a><a name="zh-cn_topic_0104704897_p12042810516"></a></p>
     <p id="zh-cn_topic_0104704897_p4689621196"><a name="zh-cn_topic_0104704897_p4689621196"></a><a name="zh-cn_topic_0104704897_p4689621196"></a></p>
